@@ -127,20 +127,20 @@
     
     p.mb-5 Las funciones del etiquetado las vemos a continuación:
 
-    .row.mb-5.justify-between
-      .col-12.col-md-4.mb-3.mb-md-0
+    .row.mb-5.justify-content-center
+      .col-12.col-lg-5.mb-3.mb-lg-0
         figure
           img(src='@/assets/curso/tema2/t2-10.png', alt='Texto que describa la imagen')
-      .col-12.col-md-3(data-aos="zoom-in-down").mb-3.mb-md-0
-        div.position-relative.mb-3.mb-md-5
+      .col-12.col-lg-3(data-aos="zoom-in-down").mb-3.mb-lg-0
+        div.position-relative.mb-3.mb-lg-5
           .modif_4
           p #[strong 1. Identificación.]  
             | El etiquetado confiere a un producto una identidad propia que lo distingue de otros en el mercado.
-        div.position-relative.mb-3.mb-md-5
+        div.position-relative.mb-3.mb-lg-5
           .modif_5
           p #[strong 2. Casificación.] 
             | El etiquetado clasifica las cosas en distintos grados.
-        div.position-relative.mb-3.mb-md-5
+        div.position-relative.mb-3.mb-lg-5
           .modif_6
           p #[strong 3. Protección del consumidor.]  
             | Protege a los consumidores del engaño de los fabricantes o de la manipulación de los hechos.
@@ -148,12 +148,12 @@
           .modif_7
           p #[strong 4. Cumplimiento de la ley.]  
             | Permite a la empresa cumplir con todas las normas legales poniendo todas las advertencias reglamentarias en los envases de los productos.
-      .col-12.col-md-3(data-aos="zoom-in-up")
-        div.position-relative.mb-3.mb-md-5
+      .col-12.col-lg-3(data-aos="zoom-in-up")
+        div.position-relative.mb-3.mb-lg-5
           .modif_8
           p #[strong 5. Promoción.]  
             | El etiquetado es una herramienta importante en la comercialización del producto. Hace que el producto sea más atractivo y atrae la atención de la gente destacando aspectos cruciales.
-        div.position-relative.mb-3.mb-md-5
+        div.position-relative.mb-3.mb-lg-5
           .modif_9
           p #[strong 6. Códigos de barras.]  
             | Los códigos de barras, los códigos universales de producto y las etiquetas RFID son habituales para permitir la gestión automatizada de la información en la logística y la venta al por menor.
@@ -183,40 +183,40 @@
         .col-12.col-md-7(data-aos="fade-left")
           p.text-bold Propiedades primordiales:
           ul.lista-ul--color
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | El fabricante del producto.
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | Fecha de llegada al depósito.
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | Envasado.
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | Caducidad.
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
-              | Componentes o peligrosidad.
-            li
+              | Componentes o peli.d-flexgrosidad.
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | Detectar la mercancía de forma inequívoca (no puede haber 2 productos con el mismo código).
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | El sistema de administración de bodegas juega un papel protagonista en este proceso. 
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | El software más común usado en logística para administrar almacenes es conocido como el WMS.
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | Almacenamiento de mercancías de menor tamaño.
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | Control intensivo de los artículos y registro de movimientos.
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | Flujos de mercancía y poder optimizarlos. 
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | Debido a la codificación y apoyo de un WMS, los operarios tienen la posibilidad de ubicar y expedir productos con más velocidad y menos errores. 
     
@@ -349,18 +349,14 @@
     figure.mb-5(data-aos="zoom-in-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/QaUztOMK6iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-     
+      figcaption Video: Conservación de mercancía
+    
+    p.text-bold.mb-5 Técnicas de manipulación de la mercancía
     .row.mb-5
-      .col-12.col-md-8.mb-3.mb-md-0
-        p.text-bold Técnicas de manipulación de la mercancía
+      .col-12.col-md-8.mb-3.mb-md-0.order-lg-2
         p Las técnicas de manipulación de productos más favorables de acuerdo a las características del producto son los equipos de manipulación para mover y trasladar mercancías y  los equipos de almacenamiento, como estantes, cajas, armarios, suelos, silos, contenedores, etc.
         p La <b>tecnología de manipulación</b> de las <b>mercancías</b> consiste en el uso de todas aquellas herramientas tecnológicas que nos ayudan a mover las <b>mercancías</b> de un lugar a otro dentro del almacén, reduciendo significativamente el esfuerzo físico del personal, los riesgos, el tiempo de operación para la realización de estas.  Las nuevas tecnologías de manipulación nos ayudan a mover productos de un lugar a otro reduciendo esfuerzo físico, riesgos y tiempo.  De igual forma las actividades de manipulación de mercancías se pueden utilizar sistemas manuales o automatizados, lo cual requiere recursos humanos y materiales. 
-      .col-12.col-md-4
-        .row.justify-center
-          .col-10.col-md-12.col-lg-10
-            .titulo-sexto.color-acento-contenido  
-              h5 Figura 1.
-              span Conservación productos
+      .col-12.col-md-4.order-lg-1
         figure
           img(src='@/assets/curso/tema2/t2-28.png', alt='Texto que describa la imagen')
 
@@ -374,14 +370,13 @@
     p.mb-5 Aquellos equipos que están fijos al piso o techo de la edificación y pueden realizar algún tipo de transporte, como aparece en la siguiente tabla:
 
     .row.mb-3.justify-center(data-aos="zoom-out-up")
-      .col-12.col-md-5
-        .titulo-sexto.color-acento-contenido  
+      .col-12.col-lg-10
+        .titulo-sexto.color-acento-botones  
           h5 Tabla 1.
           span Clasificación equipos dinámicos (sin traslado)
-      .col-12.col-md-11
-        .tabla-a.color-acento-contenido.mb-5.modif_17 
+        .tabla-a.color-acento-botones.mb-5.modif_17 
           table.bgr_17
-            caption.text-center Nota. Características generales de los equipos. 
+            caption Nota. Características generales de los equipos. 
             thead
               tr
                 th(colspan="2") Equipo
@@ -465,14 +460,13 @@
     p.mb-5 Aquellos equipos que pueden trasladar mercancías dentro del almacén, a continuación, se describen:
 
     .row.mb-3.justify-center(data-aos="zoom-out-down")
-      .col-12.col-md-5
-        .titulo-sexto.color-acento-contenido  
+      .col-12.col-lg-10
+        .titulo-sexto.color-acento-botones  
           h5 Tabla 2.
           span Clasificación equipos dinámicos con traslado
-      .col-12.col-md-11
-        .tabla-a.color-acento-contenido.mb-5.modif_17 
+        .tabla-a.color-acento-botones.mb-5.modif_17 
           table.bgr_17
-            caption.text-center Nota. Características generales de los equipos. 
+            caption Nota. Características generales de los equipos. 
             thead
               tr
                 th(colspan="2") Equipo
@@ -582,16 +576,14 @@
 
     p.mb-5 Existen <b>tres factores importantes</b> al momento de manipular un producto, como son: número de personas disponibles o sistema de extracción del producto; recorrido o movimiento de las personas, como se describen a continuación: 
 
-    .row.justify-center.mb-3
-      .col-12.col-md-5
-        .titulo-sexto.color-acento-contenido  
+    .row.mb-3.justify-center(data-aos="zoom-out-up")
+      .col-12.col-lg-7
+        .titulo-sexto.color-acento-botones  
           h5 Tabla 3.
           span Número de personas y la extracción del producto(s):
-    .row.mb-3.justify-center(data-aos="zoom-out-up")
-      .col-12.col-md-7
-        .tabla-a.color-acento-contenido.mb-5.modif_24
+        .tabla-a.color-acento-botones.mb-5.modif_24
           table.bgr_17
-            caption.text-center Nota. Relación de factores en la manipulación de productos.  
+            caption Nota. Relación de factores en la manipulación de productos.  
             thead
               tr
                 th(style="width:40%") Equipo
@@ -601,34 +593,32 @@
                 td.bgr_15.text-bold.text-center 
                   p.mb-0.text-bold Extracción 
                   p.mb-0.text-bold INDIVIDUAL
-                td.ps-3.ps-md-4.bgr_16.text-small UN pedido preparado por UNA persona
+                td.ps-3.ps-md-4.bgr_16 UN pedido preparado por UNA persona
               tr
                 td.bgr_15.text-bold.text-center 
                   p.mb-0.text-bold Extracción 
                   p.mb-0.text-bold INDIVIDUAL DIVIDIDA
-                td.ps-3.ps-md-4.bgr_16.text-small Un pedido preparado por VARIAS personas
+                td.ps-3.ps-md-4.bgr_16 Un pedido preparado por VARIAS personas
               tr
                 td.bgr_15.text-bold.text-center 
                   p.mb-0.text-bold Extracción 
                   p.mb-0.text-bold CONJUNTA
-                td.ps-3.ps-md-4.bgr_16.text-small VARIOS pedidos preparados por UNA persona
+                td.ps-3.ps-md-4.bgr_16 VARIOS pedidos preparados por UNA persona
               tr
                 td.bgr_15.text-bold.text-center 
                   p.mb-0.text-bold Extracción 
                   p.mb-0.text-bold CONJUNTA DIVIDIDA
-                td.ps-3.ps-md-4.bgr_16.text-small VARIOS pedidos preparados por VARIAS personas
+                td.ps-3.ps-md-4.bgr_16 VARIOS pedidos preparados por VARIAS personas
 
     figure.mb-5
       img(src='@/assets/curso/tema2/t2-48.png', alt='Texto que describa la imagen')
     
-    .row.justify-center.mb-3
-      .col-12.col-md-5
-        .titulo-sexto.color-acento-contenido  
-          h5 Tabla 4.
-          span Recorrido y movimiento de las personas:
     .row.justify-center(data-aos="zoom-out-down")
       .col-12.col-md-10
-        .tabla-a.color-acento-contenido.mb-5.modif_24
+        .titulo-sexto.color-acento-botones  
+          h5 Tabla 4.
+          span Recorrido y movimiento de las personas:
+        .tabla-a.color-acento-botones.mb-5.modif_24
           table.bgr_17
             caption.text-center Nota. Relación de factores en la manipulación de mercancías o pedidos.   
             thead
@@ -639,25 +629,25 @@
               tr
                 td.bgr_15.text-bold.text-center 
                   p.mb-0.text-bold Persona al Producto
-                td.ps-3.ps-md-4.bgr_16.text-small La persona se desplaza a pie hasta el producto.
+                td.ps-3.ps-md-4.bgr_16 La persona se desplaza a pie hasta el producto.
                   br
                   | <b>Requisito</b>: Cantidad de pedidos baja, almacén pequeño, distancias cortas, uso de equipos manuales. 
               tr
                 td.bgr_15.text-bold.text-center 
                   p.mb-0.text-bold Producto a la Persona
-                td.ps-3.ps-md-4.bgr_16.text-small Desplazamiento de los pedidos hasta las personas en forma manual o automática.
+                td.ps-3.ps-md-4.bgr_16 Desplazamiento de los pedidos hasta las personas en forma manual o automática.
                   br
                   | <b>Requisito</b>: Cantidad de pedidos medio-alto, salida del producto en unidades o cajas, distancias medio-largas, abastecimiento con palé, utilización de sistemas de gestión informáticos (SGA) en la preparación de pedidos. 
               tr
                 td.bgr_15.text-bold.text-center 
                   p.mb-0.text-bold Una persona – varios pedidos
-                td.ps-3.ps-md-4.bgr_16.text-small La persona se desplaza hasta el producto; aunque conlleva a una doble planificación y gestión.
+                td.ps-3.ps-md-4.bgr_16 La persona se desplaza hasta el producto; aunque conlleva a una doble planificación y gestión.
                   br
                   | <b>Requisito</b>: Cantidad de pedidos media-alta, cantidad de líneas de pedido medio, los medios para movilizar utilizados normalmente son carretillas de dos niveles, y aplicación de recursos informáticos como el código de barras.
               tr
                 td.bgr_15.text-bold.text-center 
                   p.mb-0.text-bold Varias personas – varios pedidos
-                td.ps-3.ps-md-4.bgr_16.text-small Las personas se desplazan hasta los productos para prepararlos cuando lo requieran por sus características y a la vez en el mismo pedido se debe aplicar un sistema de producto a la persona.
+                td.ps-3.ps-md-4.bgr_16 Las personas se desplazan hasta los productos para prepararlos cuando lo requieran por sus características y a la vez en el mismo pedido se debe aplicar un sistema de producto a la persona.
                   br
                   | <b>Requisito</b>:  Desfragmentar el pedido y separar los productos; por ejemplo: tornillos de 5 cm y tuercas de 5 cm; un producto fresco de uno congelado, etc. Posteriormente se consolida el pedido para realizar un solo envío.
                 
@@ -738,8 +728,9 @@
     p.mb-5 El complemento de los dispositivos, son las diferentes herramientas digitales (a través de los sistemas de información) que gestionan aquellas actividades desarrolladas dentro del almacén, cuya finalidad es apoyar la gestión física de la mercancía desde que ingresa al almacén hasta que sale en los centros de almacenamiento o distribución, e incluso hacer seguimiento a las devoluciones e inconsistencias; algunos son:
     
     figure.mb-5
-      img(src='@/assets/curso/tema2/t2-59.svg', alt='Texto que describa la imagen')
-
+      img.d-none.d-lg-block(src='@/assets/curso/tema2/t2-59.svg', alt='Texto que describa la imagen')
+      img.d-block.d-lg-none(src='@/assets/curso/tema2/t2-59-m.svg', alt='Texto que describa la imagen')
+    
     .row.mb-5.justify-center
       .col-12.col-md-10
         .cajon.bgr_22.p-5
@@ -747,7 +738,7 @@
 
     .row.justify-center
       .col-12.col-md-10
-        SlyderA(tipo="b").bgr_23.modif_19.modif_18.mb-5.p-4
+        SlyderA(tipo="b").bgr_23.modif_2.mb-5.p-4
           .row
             .col-12.col-md-6.col-lg-6.mb-3.mb-md-0
               figure

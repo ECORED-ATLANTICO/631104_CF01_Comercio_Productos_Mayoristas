@@ -78,7 +78,7 @@
 
 //FONDO BANNER INTERNO TEMAS//
 .banner-interno__fondo
-  background-image: url("../assets/curso/portada/interno.svg") !important
+  background-image: url("../assets/curso/portada/interno.png") !important
   background-repeat: no-repeat
   background-color: #00E7BF !important
 
@@ -89,11 +89,11 @@
     span
       color: #12263F !important
   &_2
-    color: #F27B58 !important
+    color: #F27B58!important
   &_3
     color: #00E7BF !important
   &_4
-    color: #4A2EFC !important
+    color: #F4B400 !important
 //BACKGROUND COLOR//
 .bg_grad-01
   position: relative
@@ -330,18 +330,17 @@
       transform: scale(1.1)
       transform: translateY(-30px)
   &_4
-    background-color: #ECFFFC
+    background-color: #F6F6F6
     border-radius: 20px
   &_5
     background-color: #F6F6F6
     border-radius: 10px
   &_6
-    background-color: #D1CAFE
+    background-color: #FCECBF
   &_7
     padding: 2px 6px 5px;
     margin-right: 5px;
-    color: #fff;
-    background-color: #9589FF
+    background-color: #C5EAFB
   &_8
     background-color: #F6F6F6
     border-radius: 20px
@@ -375,7 +374,7 @@
   &_15
     background-color: #FFF0A6
   &_16
-    background-color: #E3DEFF
+    background-color: #E8E8E8
   &_17
     caption
       background-color: #FCF9F4
@@ -392,7 +391,7 @@
     .tarjeta--azul
       background-color: #F3F3F3
   &_20
-    background-color: #C1B7FF
+    background-color: #D3F9F2
     border-top-left-radius: 10px
     border-bottom-left-radius: 10px
     @media screen and (max-width: 420px)
@@ -406,9 +405,9 @@
       border-top-right-radius: 0
       border-bottom-left-radius: 10px
   &_22
-    background-color: #D1CAFE
+    background-color: #D3F9F2
     &::before
-      background-color: #4A2EFC
+      background-color: #00E7BF
       content: ""
       display: block
       width: 25px
@@ -417,7 +416,7 @@
       top: 0
       left: 0
   &_23
-    background-color: #FFF9D9
+    background-color: #F6F6F6
     border-radius: 10px
   &_24
     background-color: #FFF4BF
@@ -495,18 +494,15 @@
     margin-right: 15px
   &_2
     .slyder-a__btn--atrs
-      background-color: #00E7BF
-      background-image: url("../assets/componentes/arrow1.svg")
-      transform: rotate(0deg)  
+      background-color: #F4B400  
     .slyder-a__btn--sigt
-      background-color: #00E7BF
-      background-image: url("../assets/componentes/arrow2.svg")
-      transform: rotate(0deg)
+      background-color: #F4B400
     .slyder-a__bullets__item--active
-      background-color: #00E7BF !important
-      border-color: #00E7BF 
+      background-color: #F4B400!important
+      border-color: #F4B400
     .slyder-a__bullets__item
-      background-color: #99F7E7
+      background-color: #F5DFA0
+      border-color: #F5DFA0
   &_3
     border-left: 2px solid #AFAFAF 
     @media screen and (max-width: 420px)
@@ -517,7 +513,7 @@
       height: 20px
       top: 12px
       left: -12px
-      background-color: #4A2EFC
+      background-color: #F4B400
       content: ''
       display: block
       position: absolute
@@ -528,7 +524,7 @@
       height: 20px
       top: 12px
       left: -12px
-      background-color: #6E57FC
+      background-color: #00E7BF
       content: ''
       display: block
       position: absolute
@@ -539,7 +535,7 @@
       height: 20px
       top: 12px
       left: -12px
-      background-color: #9281FD
+      background-color: #5DF7DC
       content: ''
       display: block
       position: absolute
@@ -550,7 +546,7 @@
       height: 20px
       top: 12px
       left: -12px
-      background-color: #C0B6FE
+      background-color: #BCFFF3
       content: ''
       display: block
       position: absolute
@@ -561,7 +557,7 @@
       height: 20px
       top: 12px
       left: -12px
-      background-color: #FED300
+      background-color: #9CA3AF
       content: ''
       display: block
       position: absolute
@@ -624,10 +620,10 @@
       transform: scale(1.1)
       transform: translateY(-30px)
   &_17
-    th
-      width: 373px !important
-    thead 
-      background-color: #FCF9F4
+    th, td, table thead th, .tabla-a th 
+      border: 2px solid #B5B5B5
+    table
+      table-layout: auto
   &_18
     .slyder-a__btn--atrs
       background-color: #F9D448

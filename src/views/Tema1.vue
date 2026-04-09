@@ -20,7 +20,7 @@
     figure.mb-5(data-aos="zoom-in-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/nyTqy5fuPJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+      figcaption Video: Normativa vigente de seguridad para el manejo de mercancías en el almacén
     p.text-bold A continuación se presenta la clasificación de mercancías según sus características y su naturaleza
 
     .bgr

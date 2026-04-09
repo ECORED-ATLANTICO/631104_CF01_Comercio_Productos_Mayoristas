@@ -16,25 +16,50 @@
           div
             p El inventario es la metodología aplicada para realizar el recuento exacto de los productos existentes en el almacén, por medio del cual se verifica la cantidad y valor de la mercancía.  
             p.mb-0.text-bold Según normativa se debe realizar la actualización mínima una vez al año y aplicar alguna de las metodologías:
-      
-      .row.mb-3
-        .col-12.col-md-4.col-lg-7.justify-end
-          .titulo-sexto.color-acento-contenido  
-            h5 Figura 2.
-            span Metodologías verificación y control de mercancías.
-      
-      .row.mb-5.justify-center
-        .col-12.col-md-9.col-lg-9
+
+     
+    .row.mb-3.justify-center(data-aos="zoom-out-up")
+      .col-12.col-lg-10
+        .titulo-sexto.color-acento-botones  
+          h5 Tabla 5.
+          span Metodologías verificación y control de mercancías.
+        .tabla-a.color-acento-botones.mb-5.modif_24
+          table.bgr_17
+            caption Nota. Relación de factores en la manipulación de productos.  
+            thead
+              tr
+                th(style="width:40%") Metodología
+                th(style="width:60%") Características
+            tbody
+              tr
+                td.bgr_15.text-bold.text-center 
+                  p.mb-0.text-bold Gestión de las existencias
+                td.ps-3.ps-md-4.bgr_16
+                  p <b>LIFO</b> <em>(Last In First Out)</em>: último que entra es el primero que sale.  Habitualmente para productos que no tienen caducidad.
+                  p <b>FIFO</b> <em>(First In First Out)</em>: primero que entra es el primero que sale. La mercancía con mayor  es la que primero debe salir.
+                  p <b>FEFO</b> <em>(Firs expires first out)</em> el primero que caduca es el primero que sale. La mercancía se ubica de acuerdo a la fecha de vencimiento, para que salga primero.
+              tr
+                td.bgr_15.text-bold.text-center 
+                  p.mb-0.text-bold Metodologías de conteode la mercancía
+                  p.mb-0.text-bold INDIVIDUAL DIVIDIDA
+                td.ps-3.ps-md-4.bgr_16 Un pedido preparado por VARIAS personas
+              tr
+                td.bgr_15.text-bold.text-center 
+                  p.mb-0.text-bold Extracción 
+                  p.mb-0.text-bold CONJUNTA
+                td.ps-3.ps-md-4.bgr_16 VARIOS pedidos preparados por UNA persona
+              tr
+                td.bgr_15.text-bold.text-center 
+                  p.mb-0.text-bold Extracción 
+                  p.mb-0.text-bold CONJUNTA DIVIDIDA
+                td.ps-3.ps-md-4.bgr_16 VARIOS pedidos preparados por VARIAS personas
           LineaTiempoE.color-acento-contenido.mb-3.modif_25
             .row(titulo="GESTIÓN DE LAS EXISTENCIAS")
               .col-lg-12.mb-0
                 p.mb-0 <b>LIFO</b> <em>(Last In First Out)</em>: último que entra es el primero que sale.  Habitualmente para productos que no tienen caducidad.
             .row
               .col-lg-12.mb-0
-                p.mb-0 <b>FIFO</b> <em>(First In First Out)</em>: primero que entra es el primero que sale. La mercancía con mayor  es la que primero debe salir.
-            .row
-              .col-lg-12.mb-4.mb-lg-0
-                p <b>FEFO</b> <em>(Firs expires first out)</em> el primero que caduca es el primero que sale. La mercancía se ubica de acuerdo a la fecha de vencimiento, para que salga primero.
+                
             .row(titulo="METODOLOGÍAS DE CONTEO DE LA MERCANCÍA")
               .col-lg-12.mb-0
                 p.mb-0 <b>PERIÓDICO:</b> el conteo se realiza al final del periodo.
