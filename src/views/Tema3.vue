@@ -25,7 +25,7 @@
           span Metodologías verificación y control de mercancías.
         .tabla-a.color-acento-botones.mb-5.modif_24
           table.bgr_17
-            caption Nota. Relación de factores en la manipulación de productos.  
+            caption Nota. Control de inventarios. 
             thead
               tr
                 th(style="width:40%") Metodología
@@ -41,47 +41,21 @@
               tr
                 td.bgr_15.text-bold.text-center 
                   p.mb-0.text-bold Metodologías de conteode la mercancía
-                  p.mb-0.text-bold INDIVIDUAL DIVIDIDA
-                td.ps-3.ps-md-4.bgr_16 Un pedido preparado por VARIAS personas
+                td.ps-3.ps-md-4.bgr_16 
+                  p <b>Periódico</b>: el contero se realiza al final del periodo.
+                  p <b>Permanente</b>: se realiza continuamente la verificación de las existencias. El inventario permanece actualizado.
+                  p <b>Físico</b>: verificación ocular  de las existencias registradas.  Importante realizar en periodos de baja actividad, para no interferir con el proceso.
               tr
                 td.bgr_15.text-bold.text-center 
-                  p.mb-0.text-bold Extracción 
-                  p.mb-0.text-bold CONJUNTA
-                td.ps-3.ps-md-4.bgr_16 VARIOS pedidos preparados por UNA persona
-              tr
-                td.bgr_15.text-bold.text-center 
-                  p.mb-0.text-bold Extracción 
-                  p.mb-0.text-bold CONJUNTA DIVIDIDA
-                td.ps-3.ps-md-4.bgr_16 VARIOS pedidos preparados por VARIAS personas
-          LineaTiempoE.color-acento-contenido.mb-3.modif_25
-            .row(titulo="GESTIÓN DE LAS EXISTENCIAS")
-              .col-lg-12.mb-0
-                p.mb-0 <b>LIFO</b> <em>(Last In First Out)</em>: último que entra es el primero que sale.  Habitualmente para productos que no tienen caducidad.
-            .row
-              .col-lg-12.mb-0
-                
-            .row(titulo="METODOLOGÍAS DE CONTEO DE LA MERCANCÍA")
-              .col-lg-12.mb-0
-                p.mb-0 <b>PERIÓDICO:</b> el conteo se realiza al final del periodo.
-            .row
-              .col-lg-12.mb-0
-                p.mb-0 <b>PERMANENTE:</b> se realiza continuamente la verificación de las existencias. El inventario permanece actualizado.
-            .row
-              .col-lg-12.mb-4.mb-lg-0
-                p <b>FÍSICO:</b> verificación ocular  de las existencias registradas.  Importante realizar en periodos de baja actividad, para no interferir con el proceso.
-            .row(titulo="DISTRIBUCIÓN DE INVENTARIOS (ABC)")
-              .col-lg-12.mb-0
-                p.mb-0 <b>PRODUCTOS A:</b> rotación de productos Alta o Muy Alta.
-            .row
-              .col-lg-12.mb-0
-                p.mb-0 <b>PRODUCTOS B:</b> rotación de productos Media.
-            .row
-              .col-lg-12.mb-2
-                p <b>PRODUCTOS C:</b> rotación de productos Baja o Nula.
-          span <b>Nota.</b> Control de inventarios.
+                  p.mb-0.text-bold Distribución de inventarios (ABC)
+                td.ps-3.ps-md-4.bgr_16 
+                  p <b>Productos A:</b> rotación de productos Alta o Muy Alta.
+                  p <b>Productos B:</b> rotación de productos Media.
+                  p <b>Productos C:</b> rotación de productos Baja o Nula.
+            
 
     p La gestión de existencias es el área encargada de regular y optimizar los niveles de <em>stock</em> en la instalación. Para ello, se suelen utilizar <b>programas informáticos que hacen un seguimiento preciso de los movimientos de las existencias.</b>
-    p.mb-5 Esto se lleva a cabo con las siguientes herramientas:
+    h5.mb-5 Esto se lleva a cabo con las siguientes herramientas:
 
     .row.mb-5.justify-center
       .col-12.col-md-5.bgr_20.p-5
@@ -99,10 +73,6 @@
 
     .row.mb-5
       .col-12.col-md-5.mb-3.mb-md-0
-        div.justify-center
-          .titulo-sexto.color-acento-contenido.mb-3  
-              h5 Figura 3.
-              span <em>Stock</em> mercancías
         figure.mb-5.justify-center
           img(src='@/assets/curso/tema3/t3-4.png', alt='Texto que describa la imagen')
       .col-12.col-md-7.align-items-center
@@ -121,22 +91,22 @@
     .row.mb-5.justify-center
       .col-12.col-md-4.align-items-center
         ul.lista-ul--color
-          li
+          li.d-flex
             i.fas.fa-paper-plane.colr_3
             | Determinar el nivel de producto almacenado.
-          li
+          li.d-flex
             i.fas.fa-paper-plane.colr_3
             | El "reabastecimiento" de materiales.
-          li
+          li.d-flex
             i.fas.fa-paper-plane.colr_3
             | El control de las compras.
-          li
+          li.d-flex
             i.fas.fa-paper-plane.colr_3
             | Las entregas.
-          li
+          li.d-flex
             i.fas.fa-paper-plane.colr_3
             | Estructura del entorno físico.
-          li
+          li.d-flex
             i.fas.fa-paper-plane.colr_3
             | La organización del local de almacenamiento.
       .col-12.col-md-4

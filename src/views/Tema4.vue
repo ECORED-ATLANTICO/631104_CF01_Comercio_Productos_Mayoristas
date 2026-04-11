@@ -30,7 +30,7 @@
         figure
           img(src='@/assets/curso/tema4/t4-8.svg', alt='Texto que describa la imagen')
       .col-12.col-md-8
-        SlyderA(tipo="b").bgr_4.modif.modif_20.mb-5
+        SlyderA(tipo="b").bgr_4.modif.modif_2.mb-5
           .row.p-3.p-md-5.p-lg-5
             .col-12
               h4 Análisis ABC:
@@ -83,7 +83,7 @@
 
     .row.mb-5
       .col-12.col-md-8.mb-3.mb-md-0
-        SlyderA(tipo="b").bgr_23.modif_21.modif_18.p-4
+        SlyderA(tipo="b").bgr_23.modif_21.modif_2.p-4
           div
             h4 Materias primas:
             p.mb-5 Las materias primas son los materiales que una empresa utiliza para crear y terminar los productos. Cuando el producto está terminado, las materias primas suelen ser irreconocibles respecto a su forma original, como el aceite utilizado para crear el champú.

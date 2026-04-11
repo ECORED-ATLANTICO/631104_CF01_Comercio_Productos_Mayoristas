@@ -21,7 +21,6 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Características del producto',
         desarrolloContenidos: true,
@@ -29,31 +28,26 @@ export default {
 
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Maestro de productos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: 'Etiquetado de productos',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Codificación de productos',
             hash: 't_2_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.3',
             titulo: 'Conservación de mercancía',
             hash: 't_2_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.4',
             titulo: 'Aplicaciones, usos y reportes',
             hash: 't_2_4',
@@ -62,26 +56,24 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
+
         numero: '3',
         titulo: 'Categorización de inventarios',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
+
         numero: '4',
         titulo: 'Administración y control de inventarios',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '4.1',
             titulo: 'Recibo y despacho de mercancía',
             hash: 't_4_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.2',
             titulo: 'Inspección de elementos',
             hash: 't_4_2',
@@ -106,11 +98,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
+      /*{
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
-      },
+      },*/
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -197,25 +189,25 @@ export default {
   referencias: [
     {
       referencia:
-        'Campo Varela, A. (2013). Operaciones de almacenaje. España: McGraw-Hill',
+        'Campo Varela, A. (2013). <em>Operaciones de almacenaje</em>. España: McGraw-Hill',
       link:
         'https://kupdf.net/download/operaciones-de-almacenaje_5c96f9e6e2b6f55d2e9fe98a_pdf',
     },
     {
       referencia:
-        'Flamarique, S. (2017). Gestión de operaciones de almacenaje. Barcelona: Marge Books. Disponible en:',
+        'Flamarique, S. (2017). <em>Gestion de operaciones de almacenaje</em>. Barcelonaón de operaciones de almacenaje. Barcelona: Marge Books. Disponible en:',
       link:
         'https://www.marcialpons.es/libros/gestion-de-operaciones-de-almacenaje/9788416171873/',
     },
     {
       referencia:
-        'Fernández Valero,  G. (2016)  Manual: operaciones auxiliares de almacenaje. Madrid: Editorial CEP, S.L. ',
+        'Fernández Valero,  G. (2016)  <em>Manual de operaciones auxiliares de almacenaje</em>. Madrid: operaciones auxiliares de almacenaje. Madrid: Editorial CEP, S.L. ',
       link:
         'https://www.buscalibre.com.co/libro-manual-operaciones-auxiliares-de-almacenaje-mf1325-1-certificados-gonzalo-fernandez-valero-cep/9788468151939/p/46445151',
     },
     {
       referencia:
-        'Gómez Aparicio,  J. M.(2013). Gestión logística y comercial. Aravaca, Madrid: McGraw-Hill España.',
+        'Gómez Aparicio,  J. M.(2013). <em>Gestión logística y comercial</em>. Aravaca, Madrid: McGraw-Hill España.',
       link:
         'http://190.116.26.93:2171/mdv-biblioteca-virtual/libro/documento/8zdvWxHm4ut8z7BGJQqtLK_GESTION_LOGISTICA_Y_COMERCIAL.pdf',
     },
