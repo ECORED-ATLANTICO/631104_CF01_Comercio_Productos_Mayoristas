@@ -8,10 +8,10 @@
       h1 Maestro de productos
     
     .row.mb-5.justify-center
-      .col-12.col-md-4.col-lg-4(data-aos="fade-right")
+      .col-12.col-lg-4.col-lg-4(data-aos="fade-right")
         figure.mb-5
           img(src='@/assets/curso/tema2/t2-1.png', alt='Texto que describa la imagen')
-      .col-12.col-md-6.col-lg-6.align-items-center.bg_grad-02(data-aos="fade-left")
+      .col-12.col-lg-6.col-lg-6.align-items-center.bg_grad-02(data-aos="fade-left")
         div
           p El  maestro de productos es una solución de gestión de datos de los inventarios que recopila, valida, enriquece y agrupa todos los datos relacionados con los productos de la organización en una copia completa, precisa y fácil de reportar. 
           p.text-bold Los datos de los productos varían de acuerdo con:
@@ -19,45 +19,45 @@
   
     SlyderA(tipo="b").bgr_4.modif.modif_2.mb-5
       .row.p-3.p-md-5.p-lg-5
-        .col-12.col-md-4.col-lg-4
-          h4.mb-md-5.mb-lg-5 Tipos de productos
+        .col-12.col-lg-4.col-lg-4
+          h4.mb-lg-5.mb-lg-5 Tipos de productos
           p Se clasifican de acuerdo con dos elementos fundamentales; su nivel de transformación física o procesamiento y su tipo de uso o mercado destino.
-        .col-12.col-md-8.col-lg-8
+        .col-12.col-lg-8.col-lg-8
           figure
             img(src='@/assets/curso/tema2/t2-2.png', alt='Texto que describa la imagen')
       .row.p-3.p-lg-5
-        .col-12.col-md-4.col-lg-4
-          h4.mb-md-5.mb-lg-5 Línea de productos
+        .col-12.col-lg-4.col-lg-4
+          h4.mb-lg-5.mb-lg-5 Línea de productos
           p Son un grupo de artículos estrechamente relacionados, ya sea porque satisfacen una clase de necesidad o porque se usan conjuntamente.
-        .col-12.col-md-8.col-lg-8
+        .col-12.col-lg-8.col-lg-8
           figure
             img(src='@/assets/curso/tema2/t2-3.png', alt='Texto que describa la imagen')
       .row.p-3.p-lg-5
-        .col-12.col-md-4.col-lg-4
-          h4.mb-md-5.mb-lg-5 Esquemas de precios (facturación)
+        .col-12.col-lg-4.col-lg-4
+          h4.mb-lg-5.mb-lg-5 Esquemas de precios (facturación)
           p Debe cubrir los costes de la materia prima, insumos, la mano de obra, la tecnología, la maquinaria o equipo que empleas, el alquiler de local, mantenimiento de equipos, sueldos, entre otros factores usados en su elaboración.
-        .col-12.col-md-8.col-lg-8
+        .col-12.col-lg-8.col-lg-8
           figure
             img(src='@/assets/curso/tema2/t2-4.svg', alt='Texto que describa la imagen')
       .row.p-3.p-lg-5
-        .col-12.col-md-4.col-lg-4
-          h4.mb-md-5.mb-lg-5 Jerarquía de productos
+        .col-12.col-lg-4.col-lg-4
+          h4.mb-lg-5.mb-lg-5 Jerarquía de productos
           p Es la escala en que ordenamos los productos de acuerdo a la línea a la que pertenecen.
-        .col-12.col-md-8.col-lg-8
+        .col-12.col-lg-8.col-lg-8
           figure
             img(src='@/assets/curso/tema2/t2-5.svg', alt='Texto que describa la imagen')
       .row.p-3.p-lg-5
-        .col-12.col-md-4.col-lg-4
-          h4.mb-md-5.mb-lg-5 Detalles históricos
+        .col-12.col-lg-4.col-lg-4
+          h4.mb-lg-5.mb-lg-5 Detalles históricos
           p Las ventas de los últimos años, la tendencia de la tasa de expansión del mercado, cuota de participación de los productos, tendencia de los pedidos medios, niveles de rotación de los productos, comportamiento de los precios, el concepto histórico se aplica al menos a los tres últimos años.
-        .col-12.col-md-8.col-lg-8
+        .col-12.col-lg-8.col-lg-8
           figure
             img(src='@/assets/curso/tema2/t2-6.png', alt='Texto que describa la imagen')
 
     p.mb-5 Cualidades de un buen maestro de productos:
 
     .row.mb-5.justify-center
-      .col-12.col-md-6.align-items-center.mb-3.mb-md-0(data-aos="fade-right")
+      .col-12.col-lg-6.align-items-center.mb-3.mb-lg-0(data-aos="fade-right")
         div
           p.text-bold Un buen maestro de productos establecerá:
           ul.lista-ul--color
@@ -70,41 +70,41 @@
             li.mb-4
               i.fas.fa-paper-plane.colr_2
               | Identifica los procesos mediante los cuales se ingieren y gobiernan los datos de los productos, independientemente de cómo estén definidos dentro de la organización. 
-      .col-12.col-md-4(data-aos="fade-left")
+      .col-12.col-md-8.col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/t2-7.png', alt='Texto que describa la imagen')
 
     p A nivel operativo, las empresas crean gran cantidad de datos, por grupos diferentes, a veces aislados, y con objetivos específicos.
     p.mb-5.text-bold Grupos de datos de los productos: 
 
-    .row.mb-5
-      .col-12.col-md-3
+    .row.mb-5.justify-center
+      .col-12.col-md-8.col-lg-3
         figure
           img(src='@/assets/curso/tema2/t2-8.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-8
-        .row.bgr_5.p-3.p-md-5
-          .col-12.col-md-4.mb-3.mb-md-0
+      .col-12.col-lg-8
+        .row.bgr_5.p-3.p-lg-5
+          .col-12.col-lg-4.mb-3.mb-lg-0
             p.text-bold Primer grupo
             ul.lista-ul--color
-              li.mb-2
+              li.mb-2.d-flex
                 i.fas.fa-paper-plane.colr_4
                 | Productos nuevos.
-              li.mb-2
+              li.mb-2.d-flex
                 i.fas.fa-paper-plane.colr_4
                 | Complejos.
-              li.mb-2
+              li.mb-2.d-flex
                 i.fas.fa-paper-plane.colr_4
                 | Personalizados. 
-          .col-12.col-md-4.modif_3.mb-3.mb-md-0
+          .col-12.col-lg-4.modif_3.mb-3.mb-lg-0
             p.text-bold Segundo grupo
             ul.lista-ul--color
-              li.mb-4
+              li.mb-4.d-flex
                 i.fas.fa-paper-plane.colr_4
                 | División, sucursal o canal de ventas (es decir, de distribución).
-          .col-12.col-md-4.modif_3
+          .col-12.col-lg-4.modif_3
             p.text-bold Tercer grupo
             ul.lista-ul--color
-              li.mb-4
+              li.mb-4.d-flex
                 i.fas.fa-paper-plane.colr_4
                 | Matices, diferencia de color. 
 
@@ -127,20 +127,20 @@
     
     p.mb-5 Las funciones del etiquetado las vemos a continuación:
 
-    .row.mb-5.justify-content-center
+    .row.mb-3.justify-content-center
       .col-12.col-lg-5.mb-3.mb-lg-0
         figure
           img(src='@/assets/curso/tema2/t2-10.png', alt='Texto que describa la imagen')
       .col-12.col-lg-3(data-aos="zoom-in-down").mb-3.mb-lg-0
-        div.position-relative.mb-3.mb-lg-5
+        div.position-relative.mb-3
           .modif_4
           p #[strong 1. Identificación.]  
             | El etiquetado confiere a un producto una identidad propia que lo distingue de otros en el mercado.
-        div.position-relative.mb-3.mb-lg-5
+        div.position-relative.mb-3
           .modif_5
           p #[strong 2. Casificación.] 
             | El etiquetado clasifica las cosas en distintos grados.
-        div.position-relative.mb-3.mb-lg-5
+        div.position-relative.mb-3
           .modif_6
           p #[strong 3. Protección del consumidor.]  
             | Protege a los consumidores del engaño de los fabricantes o de la manipulación de los hechos.
@@ -149,11 +149,11 @@
           p #[strong 4. Cumplimiento de la ley.]  
             | Permite a la empresa cumplir con todas las normas legales poniendo todas las advertencias reglamentarias en los envases de los productos.
       .col-12.col-lg-3(data-aos="zoom-in-up")
-        div.position-relative.mb-3.mb-lg-5
+        div.position-relative.mb-3
           .modif_8
           p #[strong 5. Promoción.]  
             | El etiquetado es una herramienta importante en la comercialización del producto. Hace que el producto sea más atractivo y atrae la atención de la gente destacando aspectos cruciales.
-        div.position-relative.mb-3.mb-lg-5
+        div.position-relative.mb-3
           .modif_9
           p #[strong 6. Códigos de barras.]  
             | Los códigos de barras, los códigos universales de producto y las etiquetas RFID son habituales para permitir la gestión automatizada de la información en la logística y la venta al por menor.
@@ -167,20 +167,20 @@
     #t_2_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 2.2  Codificación de productos
 
-    .bg_grad-03.mb-5
+    .bg_grad-03
       .row.mb-5.justify-center
-        .col-12.col-md-5.align-items-center.mb-3.mb-md-0(data-aos="fade-right")
+        .col-12.col-lg-5.align-items-center.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
           div
             p Codificar significa fijar un código a un producto; posibilita una buena organización de las existencias, lo cual influye de manera positiva en cada una de las ocupaciones que se desarrollan en la instalación. El proceso de codificación de mercancías se basa en detectar los productos de modo inequívoco con un código o símbolo. 
             p.text-bold.mb-0 Este código se asocia a una etiqueta adherida al producto, que dejará entrar a él electrónicamente.
-        .col-12.col-md-3(data-aos="fade-left")
+        .col-12.col-md-8.col-lg-3.order-1.order-lg-2(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema2/t2-11.png', alt='Texto que describa la imagen')
-      .row.mb-5.justify-center
-        .col-12.col-md-3.mb-3.mb-md-0(data-aos="fade-right")
+      .row.mb-3.justify-center
+        .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="fade-right")
           figure
             img(src='@/assets/curso/tema2/t2-12.svg', alt='Texto que describa la imagen')
-        .col-12.col-md-7(data-aos="fade-left")
+        .col-12.col-lg-7(data-aos="fade-left")
           p.text-bold Propiedades primordiales:
           ul.lista-ul--color
             li.d-flex
@@ -221,11 +221,11 @@
               | Debido a la codificación y apoyo de un WMS, los operarios tienen la posibilidad de ubicar y expedir productos con más velocidad y menos errores. 
     
     .row.mb-5.justify-center.pst_2
-      .col-12.col-md-6.align-items-center.mb-3.mb-md-0
+      .col-12.col-lg-6.align-items-center.mb-3.mb-lg-0
         div
           p.text-bold Funcionalidad Codificación UNSPSC
           p La metodología uniforme de codificación utilizada para clasificar productos y servicios está fundamentada en un acuerdo jerárquico y en una estructura lógica de la <b>The United Nations Standard Products and Services Code® - UNSPSC –</b> entidad Estándar de Productos y Servicios de Naciones Unidas. La versión implementada en Colombia es la UNSPSC, V.14.080.
-      .col-12.col-md-4
+      .col-12.col-lg-4
         figure
           img(src='@/assets/curso/tema2/t2-13.png', alt='Texto que describa la imagen')
 
@@ -234,58 +234,58 @@
     TabsA.color-acento-botones.modif_11.mb-5(data-aos="zoom-in-down")
       .tarjeta.modif_12.p-4(titulo="Es de manejo simple")
         .row.p-4  
-          .col-12.col-md-6
+          .col-12.col-lg-6
             h4 Es de manejo simple 
             p Es un sistema estándar de codificación de bienes y servicios, elaborado para objetivos comerciales de compras y adquisiciones. Es flexible, versátil, de forma fácil adaptable a las necesidades locales y usado en catálogos electrónicos, motores de consulta en internet y sistemas de aplicación de adquisiciones. 
-          .col-12.col-md-6
+          .col-12.col-lg-6
             figure
               img(src='@/assets/curso/tema2/t2-14.png', alt='Texto que describa la imagen')
       .tarjeta.modif_12.p-4(titulo="Es generalizado y reconocido")
         .row.p-4  
-          .col-12.col-md-6
+          .col-12.col-lg-6
             h4 Es generalizado y reconocido 
             p Es un procedimiento de codificación de vasta difusión y de generalizado conocimiento lo que posibilita a proveedores y consumidores “hablar el mismo lenguaje” al integrar en un solo número el flujo total del proceso de compra.
-          .col-12.col-md-6
+          .col-12.col-lg-6
             figure
               img(src='@/assets/curso/tema2/t2-15.png', alt='Texto que describa la imagen')
       .tarjeta.modif_12.p-4(titulo="Es coherente y completo")
         .row.p-4  
-          .col-12.col-md-6
+          .col-12.col-lg-6
             h4 Es coherente y completo 
             p Es un sistema consistente y completo que posibilita la representación de cada una de las categorías importantes para clasificar y conocer a los proveedores, así como revelar modalidades de añadidura de demanda.  
-          .col-12.col-md-6
+          .col-12.col-lg-6
             figure
               img(src='@/assets/curso/tema2/t2-16.png', alt='Texto que describa la imagen')
       .tarjeta.modif_12.p-4(titulo="Promueve la anticorrupción")
         .row.p-4  
-          .col-12.col-md-6
+          .col-12.col-lg-6
             h4 Promueve la anticorrupción 
             p La selección de un sistema estándar de codificación como el UNSPSC tiene repercusiones significativas para una agenda anticorrupción mediante la promoción de la competencia y la transparencia. 
-          .col-12.col-md-6
+          .col-12.col-lg-6
             figure
               img(src='@/assets/curso/tema2/t2-17.png', alt='Texto que describa la imagen')
       .tarjeta.modif_12.p-4(titulo="Simplifica  la tarea de los consumidores")
         .row.p-4  
-          .col-12.col-md-6
+          .col-12.col-lg-6
             h4 Simplifica  la tarea de los consumidores 
             p Provee un esquema de directrices y límites que agrupa y desagrupa productos semejantes.  Otorga una forma simple para las entidades compradoras de detectar necesidades de productos y servicios y oportunidades de comercio a futuros proveedores. 
-          .col-12.col-md-6
+          .col-12.col-lg-6
             figure
               img(src='@/assets/curso/tema2/t2-18.png', alt='Texto que describa la imagen')
       .tarjeta.modif_12.p-4(titulo="Todos lo tienen la posibilidad de utilizar")
         .row.p-4  
-          .col-12.col-md-6
+          .col-12.col-lg-6
             h4 Todos lo tienen la posibilidad de utilizar 
             p Es de independiente utilización para uso de consumidores y vendedores, quienes lo tienen la posibilidad de integrar en sus sistemas electrónicos de compras y suministros. La utilización del UNSPSC aumenta la eficiencia y la efectividad en el desempeño de los procesos contractuales y disminuye los precios de producir y conservar un sistema de codificación personal.  
-          .col-12.col-md-6
+          .col-12.col-lg-6
             figure
               img(src='@/assets/curso/tema2/t2-19.png', alt='Texto que describa la imagen')
       .tarjeta.modif_12.p-4(titulo="Permite el ahorro")
         .row.p-4  
-          .col-12.col-md-6
+          .col-12.col-lg-6
             h4 Permite el ahorro 
             p Posibilita hacer estudio de costos efectivos que mejoran el suministro estratégico, maximizan el retorno sobre la inversión y aceleran el proceso de hallazgo de oportunidades de ahorro. Su utilización garantiza que la investigación de costos no es un esfuerzo de una única vez, sino una inversión integral y continua en el proceso de racionalización del gasto.
-          .col-12.col-md-6
+          .col-12.col-lg-6
             figure
               img(src='@/assets/curso/tema2/t2-20.png', alt='Texto que describa la imagen') 
 
@@ -297,10 +297,10 @@
     p A continuación se muestran las siguientes ventajas:
 
     .row
-      .col-12.col-md-6
+      .col-12.col-lg-6
         figure
           img(src='@/assets/curso/tema2/t2-21.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-6
+      .col-12.col-lg-6
         SlyderA(tipo="b").bgr_8.modif_13.modif_2.mb-5.p-3.p-md-5
           div
             span.bgr_7.text-bold 1. 
@@ -353,10 +353,10 @@
     
     p.text-bold.mb-5 Técnicas de manipulación de la mercancía
     .row.mb-5
-      .col-12.col-md-8.mb-3.mb-md-0.order-lg-2
+      .col-12.col-lg-8.mb-3.mb-lg-0.order-lg-2
         p Las técnicas de manipulación de productos más favorables de acuerdo a las características del producto son los equipos de manipulación para mover y trasladar mercancías y  los equipos de almacenamiento, como estantes, cajas, armarios, suelos, silos, contenedores, etc.
         p La <b>tecnología de manipulación</b> de las <b>mercancías</b> consiste en el uso de todas aquellas herramientas tecnológicas que nos ayudan a mover las <b>mercancías</b> de un lugar a otro dentro del almacén, reduciendo significativamente el esfuerzo físico del personal, los riesgos, el tiempo de operación para la realización de estas.  Las nuevas tecnologías de manipulación nos ayudan a mover productos de un lugar a otro reduciendo esfuerzo físico, riesgos y tiempo.  De igual forma las actividades de manipulación de mercancías se pueden utilizar sistemas manuales o automatizados, lo cual requiere recursos humanos y materiales. 
-      .col-12.col-md-4.order-lg-1
+      .col-12.col-lg-4.order-lg-1
         figure
           img(src='@/assets/curso/tema2/t2-28.png', alt='Texto que describa la imagen')
 
@@ -536,9 +536,9 @@
 
     .bg_grad-04
       .row.mb-5.justify-center
-        .col-12.col-md-5.p-3.p-md-5
+        .col-12.col-lg-5.p-3.p-xl-5
           p.mb-0 Ahora bien, ya conociendo los diferentes equipos para la manipulación de las mercancías se puede iniciar la manipulación de  los productos o pedidos; con el objetivo de reducir recorridos, disminuir tiempos, operaciones, y mantener una rotación de <em>stock</em> precisa; para lograr eficiencia en este proceso es importante el desarrollo de las siguientes tareas:
-        .col-12.col-md-3
+        .col-12.col-lg-3
           figure
             img(src='@/assets/curso/tema2/t2-42.svg', alt='Texto que describa la imagen')
     
@@ -577,7 +577,7 @@
     p.mb-5 Existen <b>tres factores importantes</b> al momento de manipular un producto, como son: número de personas disponibles o sistema de extracción del producto; recorrido o movimiento de las personas, como se describen a continuación: 
 
     .row.mb-3.justify-center(data-aos="zoom-out-up")
-      .col-12.col-lg-7
+      .col-12.col-lg-10.col-xl-7
         .titulo-sexto.color-acento-botones  
           h5 Tabla 3.
           span Número de personas y la extracción del producto(s):
@@ -614,7 +614,7 @@
       img(src='@/assets/curso/tema2/t2-48.png', alt='Texto que describa la imagen')
     
     .row.justify-center(data-aos="zoom-out-down")
-      .col-12.col-md-10
+      .col-12.col-lg-10
         .titulo-sexto.color-acento-botones  
           h5 Tabla 4.
           span Recorrido y movimiento de las personas:
@@ -657,11 +657,11 @@
       .h2 2.4  Aplicaciones, usos y  reportes
     
     .row.mb-5
-      .col-12.col-md-7.p-5.bg_grad-05(data-aos="fade-right")
+      .col-12.col-lg-7.p-3.p-lg-5.bg_grad-05(data-aos="fade-right")
         div  
           p La utilización de la tecnología y procesos de información en las empresas facilitan la gestión y control operativo de la mercancía y eficiencia en la prestación del servicio al cliente.
           p.mb-0 Los sistemas de comunicación, programas específicos y elementos o dispositivos necesarios para la comunicación, actualización de la información y registros en las bases de datos, son  elementos necesarios en la preparación de pedidos, varía desde los más básicos como papel y lápiz, hasta más automatizados implementando tecnologías de radiofrecuencia; así mismo la necesidad de recursos humanos podría aumentar o disminuir y los desplazamientos de las mercancías podrían ser horizontal o vertical. 
-      .col-12.col-md-5.align-items-center(data-aos="fade-left")
+      .col-12.col-lg-5.align-items-center(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/t2-49.png', alt='Texto que describa la imagen')
 
@@ -669,57 +669,57 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_19
       .row(titulo="PDA").p-4
-        .col-md-6.mb-4.mb-md-0.align-items-center
+        .col-lg-6.mb-4.mb-lg-0.align-items-center
           p.mb-0 Literalmente significa: <em>Personal Digital Assistant</em> (Asistente Personal Digital). Es un equipo muy fácil de utilizar para cualquier operario ya que incluye todas las operaciones logísticas: pedidos, almacenamiento, devoluciones, inventarios y envío, aportando notificación si es urgente o no.
-        .col-md-6
+        .col-lg-6
           figure
             img(src='@/assets/curso/tema2/t2-50.png', alt='Texto que describa la imagen')
       .row(titulo="<em>Smartphone</em>").p-4
-        .col-md-6.mb-4.mb-md-0.align-items-center
+        .col-lg-6.mb-4.mb-lg-0.align-items-center
           p.mb-0 Dispositivo móvil empresarial: diseñado para servicio, ventas en campo, comercialización, logística y aplicaciones postales. Básicamente, es una minicomputadora o <em>Smartphone</em> pequeño. Actualmente viene integrado con plataformas de radiofrecuencia, el cual brinda cobertura global para satisfacer las necesidades de comunicación 4G de las empresas.
-        .col-md-6
+        .col-lg-6
           figure
             img(src='@/assets/curso/tema2/t2-51.png', alt='Texto que describa la imagen')
       .row(titulo="Pistolas lectoras").p-4
-        .col-md-6.mb-4.mb-md-0.align-items-center
+        .col-lg-6.mb-4.mb-lg-0.align-items-center
           p.mb-0 Las pistolas de radiofrecuencia son terminales, generalmente inalámbricos, dedicados a la lectura de códigos de barras (u otros tipos de etiquetas, como las QR o las RFID), que se emplean dentro de los almacenes con el fin de conectar las tareas del operario con el <em>software</em> de gestión de almacén.
-        .col-md-6
+        .col-lg-6
           figure
             img(src='@/assets/curso/tema2/t2-52.png', alt='Texto que describa la imagen')
       .row(titulo="<em>Picking</em> automático").p-4
-        .col-md-6.mb-4.mb-md-0.align-items-center
+        .col-lg-6.mb-4.mb-lg-0.align-items-center
           p.mb-0 <em>Picking</em> automático es la aplicación de sistemas automatizados que cubren por completo las tareas de preparación de pedidos (recogida o extracción de mercancía,  transporte en el almacén y acondicionamiento y expedición de etiquetas).
-        .col-md-6
+        .col-lg-6
           figure
             img(src='@/assets/curso/tema2/t2-53.png', alt='Texto que describa la imagen')
       .row(titulo="<em>Pick to voice</em>").p-4
-        .col-md-6.mb-4.mb-md-0.align-items-center
+        .col-lg-6.mb-4.mb-lg-0.align-items-center
           p.mb-0 Los sistemas de <em>picking</em> por voz asisten a los trabajadores del almacén a través de instrucciones verbales. Estos dispositivos de <em>voice picking</em> están conectados al sistema de gestión de almacenes y convierten sus órdenes en comandos de voz que el operario escucha en sus auriculares. Una vez ejecutadas, es el operario quien, mediante la voz, confirma sus movimientos y la información queda registrada en el sistema de forma automática.
-        .col-md-6
+        .col-lg-6
           figure
             img(src='@/assets/curso/tema2/t2-54.png', alt='Texto que describa la imagen')
       .row(titulo="<em>Pick to ligth</em>").p-4
-        .col-md-6.mb-4.mb-md-0.align-items-center
+        .col-lg-6.mb-4.mb-lg-0.align-items-center
           p.mb-0 Dispositivo que funciona a través de un <em>display</em> luminoso y escáner guía. Son sistemas cómodos e intuitivos, los cuales facilitan una preparación de pedidos sin necesidad de papeles, conservando las manos libres, consiste en dar instrucciones directamente en el almacén, <em>in-situ.</em>
-        .col-md-6
+        .col-lg-6
           figure
             img(src='@/assets/curso/tema2/t2-55.png', alt='Texto que describa la imagen')
       .row(titulo="<em>Pick to visual</em>").p-4
-        .col-md-6.mb-4.mb-md-0.align-items-center
+        .col-lg-6.mb-4.mb-lg-0.align-items-center
           p.mb-0 Dispositivo con gafas de datos que está diseñado para ayudar al recolector a encontrar rápidamente su ubicación en el almacén y guiarlo a través del proceso de <em>picking</em> sin errores.
-        .col-md-6
+        .col-lg-6
           figure
             img(src='@/assets/curso/tema2/t2-56.png', alt='Texto que describa la imagen')
     
     p.mb-5.text-bold Principios básicos para un eficiente uso de los dispositivos
 
     .row.mb-5.justify-center
-      .col-12.col-md-5.bgr_20.p-5
+      .col-12.col-md-6.col-lg-5.bgr_20.p-5
         figure.mb-5.justify-center
           img.img140(src='@/assets/curso/tema2/t2-57.svg', alt='Texto que describa la imagen')
         h3.mb-5.text-center No duplicidad de la información
         p.text-center.mb-0 Indica que no debe estar repetida la información en diferentes sistemas informáticos o bases de datos.
-      .col-12.col-md-5.bgr_21.p-5
+      .col-12.col-md-6.col-lg-5.bgr_21.p-5
         figure.mb-5.justify-center
           img.img140(src='@/assets/curso/tema2/t2-58.svg', alt='Texto que describa la imagen')
         h3.mb-5.text-center Estandarización de la nomenclatura
@@ -740,66 +740,66 @@
       .col-12.col-md-10
         SlyderA(tipo="b").bgr_23.modif_2.mb-5.p-4
           .row
-            .col-12.col-md-6.col-lg-6.mb-3.mb-md-0
+            .col-12.col-lg-6.col-lg-6.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/t2-60.png', alt='Texto que describa la imagen')
-            .col-12.col-md-6.col-lg-6
+            .col-12.col-lg-6.col-lg-6
               h4.mb-lg-4 Novedad
               p Condición especial de la mercancía identificada en el envío.
           .row
-            .col-12.col-md-6.col-lg-6.mb-3.mb-md-0
+            .col-12.col-lg-6.col-lg-6.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/t2-61.png', alt='Texto que describa la imagen')
-            .col-12.col-md-6.col-lg-6
+            .col-12.col-lg-6.col-lg-6
               h4.mb-lg-4 Novedad respecto al destino
               p Envío de mercancía para una ciudad diferente a la solicitada.  Con destino a un Apartado Aéreo.  Direcciones cruzadas o confusas. No se hacen entregas en cárceles o guarniciones militares.
           .row
-            .col-12.col-md-6.col-lg-6.mb-3.mb-md-0
+            .col-12.col-lg-6.col-lg-6.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/t2-62.png', alt='Texto que describa la imagen')
-            .col-12.col-md-6.col-lg-6
+            .col-12.col-lg-6.col-lg-6
               h4.mb-lg-4 Novedad respecto al riesgo en seguridad de la mercancía
               p Metales preciosos y otros objetos de valor.  Dinero en efectivo, joyas o piedras finas.  Bonos o tickets pagaderos al portador.  Antigüedades y obras de arte.
           .row
-            .col-12.col-md-6.col-lg-6.mb-3.mb-md-0
+            .col-12.col-lg-6.col-lg-6.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/t2-63.png', alt='Texto que describa la imagen')
-            .col-12.col-md-6.col-lg-6
+            .col-12.col-lg-6.col-lg-6
               h4.mb-lg-4 Novedad respecto al embalaje y empaque
               p Mercancía con empaque y embalaje no adecuados.  Cajas de cartón amarradas o selladas adecuadamente.  Empaques deteriorados o manchados.  Empaques que contengan más de un rótulo diferente.  Unidades de empaque reutilizados.
           .row
-            .col-12.col-md-6.col-lg-6.mb-3.mb-md-0
+            .col-12.col-lg-6.col-lg-6.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/t2-64.png', alt='Texto que describa la imagen')
-            .col-12.col-md-6.col-lg-6
+            .col-12.col-lg-6.col-lg-6
               h4.mb-lg-4 Novedad respecto al diligenciamiento del documento de entrega
               p No se encuentra el valor declarado, lo cual exime responsabilidades.  Falta de información, espacios sin diligenciar, tachones o enmendaduras en el formulario.
           .row
-            .col-12.col-md-6.col-lg-6.mb-3.mb-md-0
+            .col-12.col-lg-6.col-lg-6.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/t2-65.png', alt='Texto que describa la imagen')
-            .col-12.col-md-6.col-lg-6
+            .col-12.col-lg-6.col-lg-6
               h4.mb-lg-4 Inconsistencia
               p Aquellos defectos de la mercancía encontrados al momento de realizar la verificación, según la información registrada en los documentos que lo acompañan; como:  embalaje o entrega de la mercancía inadecuada según solicitud de pedido, cantidad o artículo erróneo, falta de algún artículo, error en los registros, ubicación incorrecta, etc.
           .row
-            .col-12.col-md-6.col-lg-6.mb-3.mb-md-0
+            .col-12.col-lg-6.col-lg-6.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/t2-66.png', alt='Texto que describa la imagen')
-            .col-12.col-md-6.col-lg-6
+            .col-12.col-lg-6.col-lg-6
               h4.mb-lg-4 Indicador de desempeño
               p Aquellos indicadores que se enfocan a cuantificar el desempeño de la gestión logística y cadena de abastecimiento.
           .row
-            .col-12.col-md-6.col-lg-6.mb-3.mb-md-0
+            .col-12.col-lg-6.col-lg-6.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/t2-67.png', alt='Texto que describa la imagen')
-            .col-12.col-md-6.col-lg-6
+            .col-12.col-lg-6.col-lg-6
               h4.mb-lg-4 Logística
               p Conjunto de actividades necesarias para prestar un servicio, desde la compra, empaquetado, transporte, envío y entrega de un producto al cliente final.  Cómo llevar de la manera más eficiente y eficaz la mercancía a los clientes.
           .row
-            .col-12.col-md-6.col-lg-6.mb-3.mb-md-0
+            .col-12.col-lg-6.col-lg-6.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/t2-68.png', alt='Texto que describa la imagen')
-            .col-12.col-md-6.col-lg-6
+            .col-12.col-lg-6.col-lg-6
               h4.mb-lg-4 Abastecimiento
               p Traer todo aquello que requiero para desarrollar una actividad específica.
           

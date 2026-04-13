@@ -9,11 +9,11 @@
 
     .bg_grad-01
       .row.mb-5.justify-center
-        .col-12.col-md-6.col-lg-6.mb-3.mb-md-0.mb-lg-0.align-items-center(data-aos="fade-right")
+        .col-12.col-lg-6.col-lg-6.mb-3.mb-lg-0.mb-lg-0.align-items-center(data-aos="fade-right")
           div
             p El producto o mercancía es el bien que una persona o empresa, puede vender o comprar a través de una transacción, también se define como cualquier elemento que sea posible intercambiarlo o comercializarlo en un mercado, toda mercancía tiene como característica satisfacer una necesidad del comprador o consumidor, con la venta de la mercancía se cubre una demanda específica. 
             p.mb-0.text-bold Para el manejo de mercancías en el almacén, se debe aplicar la normativa vigente de seguridad, la cual es la siguiente:
-        .col-12.col-md-4.col-lg-4(data-aos="fade-left")
+        .col-md-8.col-lg-4.col-lg-4(data-aos="fade-left")
           figure.mb-5
             img(src='@/assets/curso/tema1/t1-1.png', alt='Texto que describa la imagen')
     
@@ -25,9 +25,9 @@
 
     .bgr
       .row.mb-5.justify-center
-        .col-12.col-md-8.col-lg-8(data-aos="fade-right").align-items-center
-          p.p-4 Los centros de despacho deben asegurar una correcta manipulación y ubicación de la mercancía, para lo cual se requiere conocer características como: <b>dimensiones, forma, volumen, peso, ubicación, fragilidad, propiedades, estado físico y nivel de rotación.</b> Estas características permiten clasificarlas e identificar los equipos necesarios para las actividades de recepción, manipulación, ubicación y almacenamiento, las cuales se describen a continuación:
-        .col-12.col-md-4.col-lg-4(data-aos="fade-left") 
+        .col-12.col-lg-8.col-lg-8(data-aos="fade-right").align-items-center
+          p.p-lg-4 Los centros de despacho deben asegurar una correcta manipulación y ubicación de la mercancía, para lo cual se requiere conocer características como: <b>dimensiones, forma, volumen, peso, ubicación, fragilidad, propiedades, estado físico y nivel de rotación.</b> Estas características permiten clasificarlas e identificar los equipos necesarios para las actividades de recepción, manipulación, ubicación y almacenamiento, las cuales se describen a continuación:
+        .col-md-8.col-lg-4.col-lg-4(data-aos="fade-left") 
           figure.mb-5x
             img(src='@/assets/curso/tema1/t1-2.png', alt='Texto que describa la imagen')
       
@@ -88,25 +88,25 @@
     p.mb-5 Clasificación de las mercancías según su naturaleza.
 
     .row.mb-5
-      .col-12.col-md-3.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-up")
+      .col-md-6.col-lg-3.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-up")
         .bgr_3.p-4.h-100
           figure.mb-3.justify-center 
             img.img90(src='@/assets/curso/tema1/t1-12.svg' alt='AvatarTop')
           p.text-bold Mercancías no perecederas
           p.mb-0 Mercancías que a mediano y corto plazo, no se deterioran.
-      .col-12.col-md-3.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-down")
+      .col-md-6.col-lg-3.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-down")
         .bgr_3.p-4.h-100
           figure.mb-3.justify-center 
             img.img90(src='@/assets/curso/tema1/t1-13.svg' alt='AvatarTop')
           p.text-bold Mercancías  perecederas 
           p.mb-0 Son los productos que inician el proceso de descomposición en corto plazo.
-      .col-12.col-md-3.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-up")
+      .col-md-6.col-lg-3.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-up")
         .bgr_3.p-4.h-100
           figure.mb-3.justify-center 
             img.img90(src='@/assets/curso/tema1/t1-14.svg' alt='AvatarTop')
           p.text-bold Mercancía frágil 
           p.mb-0 Se daña fácilmente al recibir contactos fuertes como golpes o vibraciones.
-      .col-12.col-md-3.col-lg-3(data-aos="zoom-in-down")
+      .col-md-6.col-lg-3.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-down")
         .bgr_3.p-4.h-100
           figure.mb-3.justify-center 
             img.img90(src='@/assets/curso/tema1/t1-15.svg' alt='AvatarTop')

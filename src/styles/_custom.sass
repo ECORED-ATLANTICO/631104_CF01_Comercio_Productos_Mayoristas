@@ -82,6 +82,13 @@
   background-repeat: no-repeat
   background-color: #00E7BF !important
 
+.banner-principal .tarjeta
+  @media screen and (max-width: $bp-max-md)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+
+
 //COLOR FONDO//
 .colr
   color: #12263F
@@ -111,12 +118,15 @@
     background-repeat: no-repeat
     background-size: contain
     @media screen and (max-width: 992px)
-      top: 24px
+      width: 100%
+      height: 100%
+      left: -10px
+      top: -10px
     @media screen and (max-width: 420px)
-      width: 385px
-      height: 68%
-      left: -13px
-      top: -16px
+      width: 100%
+      height: 100%
+      left: 0
+      top: 0
 .bg_grad-02
   position: relative
   div
@@ -135,8 +145,8 @@
     @media screen and ( max-width: 992px )
         width: 215px;
         height: 33%;
-        left: 193px;
-        top: 138px;
+        left: 0
+        top: 0
     @media screen and ( max-width: 420px )
       width: 215px
       height: 46%
@@ -150,13 +160,18 @@
     content: ''
     position: absolute
     margin: 0
-    top: 0px
+    top: -10px
     left: 6%
     width: 76%
     height: 930px
     background: linear-gradient(90deg, rgba(239,239,239,1) 0%, rgba(255,255,255,1) 100%)
     background-repeat: no-repeat
     background-size: contain
+    @media screen and ( max-width: 768px )
+      width: 100%
+      height: 100%
+      left: -13px
+      top: -16px
     @media screen and ( max-width: 420px )
       width: 385px
       height: 100%
@@ -177,6 +192,11 @@
     background: linear-gradient(90deg, rgba(239,239,239,1) 0%, rgba(255,255,255,1) 100%)
     background-repeat: no-repeat
     background-size: contain
+    @media screen and ( max-width: 768px )
+      width: 100%
+      height: 100%
+      left: -13px
+      top: -16px
     @media screen and ( max-width: 420px )
       width: 385px
       height: 100%
@@ -222,6 +242,8 @@
     background: linear-gradient(180deg, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100%)
     background-repeat: no-repeat
     background-size: contain
+    @media screen and ( max-width: 1024px )
+      width: 88%
     @media screen and ( max-width: 420px )
       width: 385px
       height: 68%
@@ -244,8 +266,8 @@
     background-size: contain
     @media screen and ( max-width: 992px )
       width: 215px
-      height: 39%
-      left: -24px
+      height: 50%
+      left: -10px
       top: 0px
     @media screen and ( max-width: 420px )
       width: 215px;
@@ -272,6 +294,11 @@
       height: 26%
       left: -24px
       top: 0px
+    @media screen and ( max-width: 768px )
+      width: 40%
+      height: 46%
+      left: -10px
+      top: 0px
     @media screen and ( max-width: 420px )
       width: 215px;
       height: 22%;
@@ -292,9 +319,14 @@
     background: linear-gradient(270deg, rgba(239,239,239,1) 0%, rgba(255,255,255,1) 100%)
     background-repeat: no-repeat
     background-size: contain
-    @media screen and ( max-width: 420px )
+    @media screen and ( max-width: 768px )
+      width: 100%
+      height: 100%
+      left: -13px
+      top: 36px
+    @media screen and ( max-width: 426px )
       background: linear-gradient(0deg, rgba(239,239,239,1) 0%, rgba(255,255,255,1) 100%);
-      width: 385px
+      width: 400px
       height: 643px
       left: -13px
       top: 36px
@@ -314,6 +346,11 @@
     background-color: #E8F7FD
     background-repeat: no-repeat
     background-size: contain
+    @media screen and ( max-width: 768px )
+      width: 54%
+      height: 21%
+      left: 0
+      top: 0
     @media screen and ( max-width: 420px )
       width: 54%
       height: 21%
@@ -460,8 +497,8 @@
 //POSICION EN PANTALLA//
 .pst
   position: absolute
-  top: -13px
-  right: -36px
+  top: -18px
+  right: -56px
   width: 87px
   @media screen and (max-width: 420px)
     right: -50px
@@ -470,8 +507,8 @@
     margin-top: 24px
   &_2
     margin-top: 120px
-    @media screen and (max-width: 420px)
-      margin-top: 50px
+    @media screen and (max-width: 426px)
+      margin-top: 20px
   &_3
     position: absolute
     top: -13px
@@ -480,6 +517,9 @@
     @media screen and (max-width: 992px)
       right: -73px
       top: -2px
+    @media screen and (max-width: 768px)
+      right: -73px
+      top: -15px
     @media screen and (max-width: 420px)
       right: -60px
       top: -2px
@@ -505,7 +545,7 @@
       border-color: #F5DFA0
   &_3
     border-left: 2px solid #AFAFAF 
-    @media screen and (max-width: 420px)
+    @media screen and (max-width: 768px)
       border-left: none
   &_4
     &::after
@@ -518,6 +558,8 @@
       display: block
       position: absolute
       transform: translate(-50%, -50%)
+      @media screen and (max-width: 768px)
+        left: -10px
   &_5
     &::after
       width: 9px
@@ -529,6 +571,8 @@
       display: block
       position: absolute
       transform: translate(-50%, -50%)
+      @media screen and (max-width: 768px)
+        left: -10px
   &_6
     &::after
       width: 9px
@@ -540,6 +584,8 @@
       display: block
       position: absolute
       transform: translate(-50%, -50%)
+      @media screen and (max-width: 768px)
+        left: -10px
   &_7
     &::after
       width: 9px
@@ -551,6 +597,8 @@
       display: block
       position: absolute
       transform: translate(-50%, -50%)
+      @media screen and (max-width: 768px)
+        left: -10px
   &_8
     &::after
       width: 9px
@@ -562,6 +610,8 @@
       display: block
       position: absolute
       transform: translate(-50%, -50%)
+      @media screen and (max-width: 768px)
+        left: -10px
   &_9 
     &::after
       width: 9px
@@ -573,6 +623,8 @@
       display: block
       position: absolute
       transform: translate(-50%, -50%)
+      @media screen and (max-width: 768px)
+        left: -10px
   &_10 
     &::after
       width: 9px
@@ -584,6 +636,8 @@
       display: block
       position: absolute
       transform: translate(-50%, -50%)
+      @media screen and (max-width: 768px)
+        left: -10px
   &_11
     .tabs-a__tab
       background-color: #F6F6F6
@@ -602,7 +656,7 @@
       margin-left: -10px
     .slyder-a__tipo-b .slyder-a__btn--sigt
       margin-right: -10px
-    @media screen and (max-width: 420px)
+    @media screen and (max-width: 426px)
       .slyder-a__tipo-b
         bottom: 0px
       .slyder-a__tipo-b .slyder-a__btn--atrs
@@ -694,7 +748,6 @@
         width: 100%
         left: 0
     .slyder-a__tipo-b .slyder-a__bullets
-      width: 19%
       @media screen and (max-width: 992px)
         width: 27%
       @media screen and (max-width: 420px)
@@ -725,5 +778,7 @@
 .tarjeta.color-primario *
   color: #12263F
   
-
+.slyder-a__bullets__item
+  @media screen and (max-width: 426px)
+    margin: 0 5px
 

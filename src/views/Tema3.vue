@@ -9,10 +9,10 @@
 
     .bg_grad-06
       .row.mb-5.justify-center
-        .col-12.col-md-3.mb-3.mb-md-0
+        .col-12.col-lg-4.col-xl-3.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema3/t3-1.png', alt='Texto que describa la imagen')
-        .col-12.col-md-5.align-items-center
+        .col-12.col-lg-6.col-xl-5.align-items-center
           div
             p El inventario es la metodología aplicada para realizar el recuento exacto de los productos existentes en el almacén, por medio del cual se verifica la cantidad y valor de la mercancía.  
             p.mb-0.text-bold Según normativa se debe realizar la actualización mínima una vez al año y aplicar alguna de las metodologías:
@@ -58,12 +58,12 @@
     h5.mb-5 Esto se lleva a cabo con las siguientes herramientas:
 
     .row.mb-5.justify-center
-      .col-12.col-md-5.bgr_20.p-5
+      .col-12.col-md-6.col-lg-5.bgr_20.p-5
         figure.mb-5.justify-center
           img.img140(src='@/assets/curso/tema3/t3-3.svg', alt='Texto que describa la imagen')
         h3.mb-5.text-center Dispositivos de lectura y transmisión de datos
         p.text-center.mb-0 Los terminales de radiofrecuencia y otros sistemas, como el <em>picking</em> por voz y el <em>pick-to-light</em>, sirven de enlace entre el sistema informático y el mundo físico.
-      .col-12.col-md-5.bgr_21.p-5
+      .col-12.col-md-6.col-lg-5.bgr_21.p-5
         figure.mb-5.justify-center
           img.img140(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
         h3.mb-5.text-center Sistema de gestión de almacenes (SGA)
@@ -72,24 +72,24 @@
     p.mb-5 Gracias a estos elementos, es posible establecer un sistema de trazabilidad, el cual  identifica las distintas etapas por las que pasa un producto en el almacén, por tanto, le proporciona un control exhaustivo de los flujos de materiales.
 
     .row.mb-5
-      .col-12.col-md-5.mb-3.mb-md-0
+      .col-12.col-lg-5.mb-3.mb-lg-0
         figure.mb-5.justify-center
           img(src='@/assets/curso/tema3/t3-4.png', alt='Texto que describa la imagen')
-      .col-12.col-md-7.align-items-center
+      .col-12.col-lg-7.align-items-center
         div
           p La calidad y la eficiencia de la logística están totalmente vinculadas al <em>stock</em> de una empresa, ya que este sector representa más del 30 % de los costos totales de una operación. Ajustar las cantidades que se almacenan entre los procesos de distribución es fundamental también para reducir los costes excesivos y no solo facilitar los procedimientos en la cadena de entrega.
           .cajon.bgr_24.px-5.py-3
             .row  
-              .col-12.col-md-3
+              .col-12.col-lg-3.mb-3.mb-lg-0
                 figure.justify-center
                   img.img100(src='@/assets/curso/tema3/t3-5.svg', alt='Texto que describa la imagen')
-              .col-12.col-md-9.align-items-center
+              .col-12.col-lg-9.align-items-center
                 p.mb-0.text-bold El <em>stock</em> es un sector que exige mucha atención ya que sus costes tienen un gran impacto en los resultados financieros de una empresa aunque dependen directamente del nivel de ventas. 
 
-    p.mb-5.text-bold Acciones para organizar <em>stock</em> de manera eficaz
+    p.mb-3.text-bold Acciones para organizar <em>stock</em> de manera eficaz
 
     .row.mb-5.justify-center
-      .col-12.col-md-4.align-items-center
+      .col-12.col-lg-6.col-xl-4.align-items-center
         ul.lista-ul--color
           li.d-flex
             i.fas.fa-paper-plane.colr_3
@@ -109,7 +109,7 @@
           li.d-flex
             i.fas.fa-paper-plane.colr_3
             | La organización del local de almacenamiento.
-      .col-12.col-md-4
+      .col-12.col-lg-6.col-xl-4
         figure
           img(src='@/assets/curso/tema3/t3-6.png', alt='Texto que describa la imagen')
 

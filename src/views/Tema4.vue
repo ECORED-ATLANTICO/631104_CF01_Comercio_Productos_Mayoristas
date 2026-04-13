@@ -8,9 +8,9 @@
       h1 Administración y control de inventarios
 
     .row.mb-5.justify-center
-      .col-12.col-md-5.col-lg-5.align-items-center.bg_grad-07.mb-3.mb-md-0
+      .col-12.col-lg-5.col-lg-5.align-items-center.bg_grad-07.mb-3.mb-lg-0.order-2.orde-lg-1
         p.mb-0 El <b>control de inventario</b> es el proceso por el cual una empresa administra las mercancías que mantiene en almacén. Esto, con el objetivo de recopilar información de la entrada y salida de los productos, buscando además el ahorro de costes.
-      .col-12.col-md-5.col-lg-5
+      .col-12.col-lg-5.col-lg-5.order-1.orde-lg-2.mb-3.mb-lg-0
         figure
           img(src='@/assets/curso/tema4/t4-1.png', alt='Texto que describa la imagen')
     
@@ -25,52 +25,52 @@
     
     p.mb-5 Existen diferentes tipos de inventario: materias primas, trabajos en curso (WIP), productos terminados, inventario de desacoplamiento, existencias de seguridad, materiales de embalaje, inventario de ciclo, inventario de servicio, tránsito, teórico, exceso y mantenimiento, reparación y operaciones (MRO). Aclaramos que algunos autores  no reconocen el MRO como un tipo de inventario.   Relacionamos las mejores estrategias en la gestión de inventarios: 
 
-    .row.mb-5
-      .col-12.col-md-4.mb-3.mb-md-0.align-items-center
+    .row.mb-5.justify-center
+      .col-12.col-md-8.col-lg-4.mb-3.mb-lg-0.align-items-center
         figure
           img(src='@/assets/curso/tema4/t4-8.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-8
+      .col-12.col-lg-8
         SlyderA(tipo="b").bgr_4.modif.modif_2.mb-5
           .row.p-3.p-md-5.p-lg-5
             .col-12
               h4 Análisis ABC:
-              p.mb-5 Este método funciona identificando los tipos de existencias más y menos populares.
+              p Este método funciona identificando los tipos de existencias más y menos populares.
               h4 Seguimiento de lotes:
-              p.mb-5 Este método agrupa artículos similares para hacer un seguimiento de las fechas de caducidad y rastrear los artículos defectuosos.
+              p Este método agrupa artículos similares para hacer un seguimiento de las fechas de caducidad y rastrear los artículos defectuosos.
               h4 Envíos a granel:
-              p.mb-5 Este método tiene en cuenta los materiales sin embalar que los proveedores cargan directamente en barcos o camiones. Implica comprar, almacenar y enviar el inventario a granel.
+              p Este método tiene en cuenta los materiales sin embalar que los proveedores cargan directamente en barcos o camiones. Implica comprar, almacenar y enviar el inventario a granel.
               h4 Consignación:
               p.mb-0 Cuando se practica la gestión de inventario en consignación, su empresa no pagará a su proveedor hasta que se venda un determinado producto. Ese proveedor también conserva la propiedad del inventario hasta que su empresa lo venda.
           .row.p-3.p-md-5.p-lg-5
             .col-12
               h4 <em>Cross-Docking:</em>
-              p.mb-5 Con este método, usted descargará los artículos directamente del camión de un proveedor al camión de entrega. Se elimina esencialmente el almacenamiento.
+              p Con este método, usted descargará los artículos directamente del camión de un proveedor al camión de entrega. Se elimina esencialmente el almacenamiento.
               h4 Previsión de la demanda:
-              p.mb-5 Esta forma de análisis predictivo ayuda a predecir la demanda de los clientes.
+              p Esta forma de análisis predictivo ayuda a predecir la demanda de los clientes.
               h4 Envío directo:
-              p.mb-5 En esta práctica, el proveedor envía los artículos directamente desde su almacén al cliente.
+              p En esta práctica, el proveedor envía los artículos directamente desde su almacén al cliente.
               h4 Cantidad económica de pedido (EOQ):
-              p.mb-5 Esta fórmula muestra exactamente la cantidad de inventario que una empresa debe pedir para reducir los costes de mantenimiento y otros.
+              p Esta fórmula muestra exactamente la cantidad de inventario que una empresa debe pedir para reducir los costes de mantenimiento y otros.
               h4 FIFO <em>(First In First Out)</em> y LIFO <em>(Last In First Out)</em>:
               p.mb-0 Primero en entrar, primero en salir (FIFO) significa que se mueven primero las existencias más antiguas. El último en entrar, primero en salir (LIFO) considera que los precios siempre suben, por lo que el inventario comprado más recientemente es el más caro y, por tanto, se vende primero.
           .row.p-3.p-md-5.p-lg-5
             .col-12
               h4 Inventario justo a tiempo (JIT):
-              p.mb-5 Las empresas utilizan este método en un esfuerzo por mantener los niveles de <em>stock</em> más bajos posibles antes de una reposición.
+              p Las empresas utilizan este método en un esfuerzo por mantener los niveles de <em>stock</em> más bajos posibles antes de una reposición.
               h4 Fabricación ajustada:
-              p.mb-5 Esta metodología se centra en eliminar del sistema de fabricación los residuos o cualquier elemento que no aporte valor al cliente.
+              p Esta metodología se centra en eliminar del sistema de fabricación los residuos o cualquier elemento que no aporte valor al cliente.
               h4 Planificación de necesidades de materiales (MRP):
-              p.mb-5 Este sistema se encarga de la planificación, la programación y el control del inventario para la fabricación.
+              p Este sistema se encarga de la planificación, la programación y el control del inventario para la fabricación.
               h4 Cantidad mínima de pedido:
               p.mb-0 Una empresa que se basa en la cantidad mínima de pedido pedirá cantidades mínimas de inventario a los mayoristas en cada pedido para mantener los costes bajos.
           .row.p-3.p-md-5.p-lg-5
             .col-12
               h4 Fórmula de punto de pedido:
-              p.mb-5 Las empresas utilizan esta fórmula para encontrar la cantidad mínima de existencias que deben tener antes de reordenar, y luego gestionar su inventario en consecuencia.
+              p Las empresas utilizan esta fórmula para encontrar la cantidad mínima de existencias que deben tener antes de reordenar, y luego gestionar su inventario en consecuencia.
               h4 <em>Stock</em> de seguridad:
-              p.mb-5 Una ética de gestión de inventarios que dé prioridad a las existencias de seguridad garantizará que siempre haya existencias adicionales reservadas en caso de que la empresa no pueda reponer esos artículos.
+              p Una ética de gestión de inventarios que dé prioridad a las existencias de seguridad garantizará que siempre haya existencias adicionales reservadas en caso de que la empresa no pueda reponer esos artículos.
               h4 Seis <em>Sigma:</em>
-              p.mb-5 Se trata de un método basado en datos para eliminar los residuos de las empresas en lo que respecta al inventario.
+              p Se trata de un método basado en datos para eliminar los residuos de las empresas en lo que respecta al inventario.
               h4 <em>Lean Six Sigma:</em>
               p.mb-0 Este método combina la gestión ajustada y las prácticas de <em>Six Sigma</em> para eliminar los residuos y aumentar la eficiencia.
 
@@ -81,40 +81,40 @@
     
     p.mb-5 La administración de inventarios es la contabilidad de los artículos, componentes y materias primas que una empresa utiliza en la producción o vende.  Un líder empresarial, debe llevar a la práctica la gestión de inventarios para asegurarse de que tiene suficientes existencias a mano y para identificar cuándo hay una escasez. Existen  diferentes tipos de inventario:
 
-    .row.mb-5
-      .col-12.col-md-8.mb-3.mb-md-0
+    .row.mb-5.justify-center
+      .col-12.col-lg-8.mb-3.mb-lg-0
         SlyderA(tipo="b").bgr_23.modif_21.modif_2.p-4
           div
             h4 Materias primas:
-            p.mb-5 Las materias primas son los materiales que una empresa utiliza para crear y terminar los productos. Cuando el producto está terminado, las materias primas suelen ser irreconocibles respecto a su forma original, como el aceite utilizado para crear el champú.
+            p Las materias primas son los materiales que una empresa utiliza para crear y terminar los productos. Cuando el producto está terminado, las materias primas suelen ser irreconocibles respecto a su forma original, como el aceite utilizado para crear el champú.
             h4 Componentes:
-            p.mb-5 Los componentes son similares a las materias primas en el sentido de que son los materiales que una empresa utiliza para crear y terminar productos, excepto que siguen siendo reconocibles cuando el producto está terminado, como un tornillo.
+            p Los componentes son similares a las materias primas en el sentido de que son los materiales que una empresa utiliza para crear y terminar productos, excepto que siguen siendo reconocibles cuando el producto está terminado, como un tornillo.
             h4 Trabajo en curso (WIP):
-            p.mb-5 El inventario WIP se refiere a los artículos en producción e incluye materias primas o componentes, mano de obra, gastos generales e incluso materiales de embalaje.
+            p El inventario WIP se refiere a los artículos en producción e incluye materias primas o componentes, mano de obra, gastos generales e incluso materiales de embalaje.
             h4 Productos terminados:
             p.mb-0 Los productos terminados son artículos que están listos para la venta.
           div
             h4 Bienes de mantenimiento, reparación y operaciones (MRO):
-            p.mb-5 los bienes de mantenimiento, reparación y operaciones (MRO) son inventarios - a menudo en forma de suministros - que apoyan la fabricación de un producto o el mantenimiento de una empresa.
+            p los bienes de mantenimiento, reparación y operaciones (MRO) son inventarios - a menudo en forma de suministros - que apoyan la fabricación de un producto o el mantenimiento de una empresa.
             h4 Materiales de empaque y embalaje:
-            p.mb-5 Hay tres tipos de materiales de embalaje. El embalaje primario protege el producto y lo hace utilizable. El embalaje secundario es el embalaje del producto terminado y puede incluir etiquetas o información de SKU. El embalaje terciario es el embalaje a granel para el transporte.
+            p Hay tres tipos de materiales de embalaje. El embalaje primario protege el producto y lo hace utilizable. El embalaje secundario es el embalaje del producto terminado y puede incluir etiquetas o información de SKU. El embalaje terciario es el embalaje a granel para el transporte.
             h4 <em>Stock</em> de seguridad y stock de anticipación:
             p.mb-0 El <em>stock</em> de seguridad es el inventario extra que una empresa compra y almacena para cubrir eventos inesperados. El <em>stock</em> de seguridad tiene costes de transporte, pero contribuye a la satisfacción del cliente. Del mismo modo, las existencias de anticipación comprenden las materias primas o los artículos acabados que una empresa adquiere en función de las tendencias de las ventas y la producción. Si el precio de una materia prima está subiendo o se acerca la época de mayores ventas, una empresa puede comprar existencias de seguridad.
           div
             h4 Inventario de desacoplamiento:
-            p.mb-5 El inventario de desacoplamiento es el término utilizado para los artículos extra o WIP que se mantienen en cada estación de la línea de producción para evitar las paradas de trabajo. Mientras que todas las empresas pueden tener existencias de seguridad, el inventario de desacoplamiento es útil si las partes de la línea trabajan a diferentes velocidades y sólo se aplica a las empresas que fabrican bienes.
+            p El inventario de desacoplamiento es el término utilizado para los artículos extra o WIP que se mantienen en cada estación de la línea de producción para evitar las paradas de trabajo. Mientras que todas las empresas pueden tener existencias de seguridad, el inventario de desacoplamiento es útil si las partes de la línea trabajan a diferentes velocidades y sólo se aplica a las empresas que fabrican bienes.
             h4 Inventario de ciclo:
-            p.mb-5 Las empresas piden el inventario cíclico en lotes para obtener la cantidad correcta de existencias con el menor coste de almacenamiento. Conozca más sobre las fórmulas de inventario cíclico en la "Guía esencial para la planificación de inventarios".
+            p Las empresas piden el inventario cíclico en lotes para obtener la cantidad correcta de existencias con el menor coste de almacenamiento. Conozca más sobre las fórmulas de inventario cíclico en la "Guía esencial para la planificación de inventarios".
             h4 Inventario de servicio:
             p.mb-0 El inventario de servicios es un concepto de contabilidad de gestión que se refiere a la cantidad de servicios que una empresa puede prestar en un período determinado. Un hotel con 10 habitaciones, por ejemplo, tiene un inventario de servicio de 70 estancias de una noche en una semana determinada.
           div
             h4 Inventario de tránsito:
-            p.mb-5 También conocido como inventario en tránsito, el inventario en tránsito es el <em>stock</em> que se mueve entre el fabricante, los almacenes y los centros de distribución. El inventario en tránsito puede tardar semanas en moverse entre las instalaciones.
+            p También conocido como inventario en tránsito, el inventario en tránsito es el <em>stock</em> que se mueve entre el fabricante, los almacenes y los centros de distribución. El inventario en tránsito puede tardar semanas en moverse entre las instalaciones.
             h4 Inventario teórico:
-            p.mb-5 También llamado inventario contable, el inventario teórico es la menor cantidad de existencias que una empresa necesita para completar un proceso sin esperar. El inventario teórico se utiliza sobre todo en la producción y en la industria alimentaria. Se mide utilizando la fórmula real frente a la teórica.
+            p También llamado inventario contable, el inventario teórico es la menor cantidad de existencias que una empresa necesita para completar un proceso sin esperar. El inventario teórico se utiliza sobre todo en la producción y en la industria alimentaria. Se mide utilizando la fórmula real frente a la teórica.
             h4 Exceso de inventario:
             p.mb-0 También conocido como inventario obsoleto, el exceso de inventario es la mercancía o materia prima no vencida o no utilizada que una empresa no espera utilizar o vender, pero que aun así debe pagar por almacenar.
-      .col-12.col-md-4.align-items-center
+      .col-12.col-md-8.col-lg-4.align-items-center
         figure
           img(src='@/assets/curso/tema4/t4-10.svg', alt='Texto que describa la imagen')
      
@@ -122,9 +122,9 @@
       p.mb-0 Podemos concluir que el inventario de una organización, que a menudo se describe como el paso entre la fabricación y el cumplimiento de los pedidos, es fundamental para todas sus operaciones comerciales, ya que a menudo sirve como fuente principal de generación de ingresos. Independientemente del hecho de que el inventario puede describirse y clasificarse de numerosas maneras, es en última instancia su gestión la que afecta directamente a las capacidades de cumplimiento de pedidos de una organización.
 
     .row.justify-center
-      .col-12.col-md-6.mb-3.mb-md-0.p-5.bg_grad-08
+      .col-12.col-lg-6.col-xl-6.mb-3.mb-lg-0.p-3.p-lg-5.bg_grad-08
         p.mb-0 Por ejemplo, al hacer un seguimiento de las materias primas, las existencias de seguridad, los productos acabados o incluso los materiales de embalaje, las empresas están recopilando datos cruciales que influyen en sus futuras operaciones de compra y cumplimiento. Entender las tendencias de compra y el ritmo de venta de los artículos determina la frecuencia con la que las empresas necesitan reponer el inventario y qué artículos son prioritarios para la recompra. Disponer de esta información puede mejorar las relaciones con los clientes, el flujo de caja y la rentabilidad, a la vez que se reduce la cantidad de dinero que se pierde por el desperdicio de inventario, las roturas de <em>stock</em> y los retrasos en las reposiciones.
-      .col-12.col-md-4.align-items-center
+      .col-12.col-lg-6.col-xl-4.align-items-center
         figure
           img(src='@/assets/curso/tema4/t4-11.png', alt='Texto que describa la imagen')
     
@@ -133,12 +133,12 @@
     #t_4_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 4.1 Recibo y despacho de mercancía
 
-    .row.mb-5
-      .col-12.col-md-8.mb-3.mb-md-0.align-items-center
+    .row.mb-5.justify-center
+      .col-12.col-lg-8.mb-3.mb-lg-0.align-items-center
         div
           p La preparación de pedidos para última milla se denomina <em>picking</em>, esta etapa en el proceso logística es de mucha importancia para todos los centros de distribución, en este proceso se pueden generar reproceso si no se  hace la preparación de los pedidos de forma ordenada y atenta, es la garantía de que la mercancía embalada sea la apropiada para continuar en el recorrido al destino final, es por ello que la etapa de organización y preparación de las mercancías demanda eficiencia para no ver afectada la operación y por consiguiente dar cumplimiento con las promesas de valor a los clientes y no menoscabar la productividad de la empresa. 
           p.mb-0 <b>El <em>picking</em> es la actividad que realiza un equipo de operarios al momento de preparar los pedidos, consiste en la recogida y consolidación de cargas no unitarias que componen el pedido de un cliente.</b> El <em>picking</em> es una de las actividades más costosas en el almacenamiento, puesto que implica desplazamientos y recorridos del personal; representa entre el 45 % y 75 % del costo total de la operación. Por otro lado, la consolidación de mercancía es la combinación de un conjunto de envíos individuales e independientes en un mismo cargamento, para reducir costos generales de transporte. El <em>picking</em>  involucra cuatro (4) etapas; estas son:
-      .col-12.col-md-4
+      .col-12.col-md-8.col-lg-4
         figure
           img(src='@/assets/curso/tema4/t4-12.svg', alt='Texto que describa la imagen')
     
@@ -187,39 +187,39 @@
 
     .bg_grad-09
       .row.mb-5.justify-center.pst_2
-        .col-12.col-md-3.mb-3.mb-md-0
+        .col-12.col-md-8.col-lg-3.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema4/t4-17.svg', alt='Texto que describa la imagen')
-        .col-12.col-md-5
+        .col-12.col-lg-5
           p.text.bold Permite identificar y analizar:
           ul.lista-ul--color
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | Estado de las mercancías.
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | Cumplimiento con la normatividad en operación y seguridad.
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | Verifica mercancía almacenada.
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | Distribución del almacén.
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | Tipos de riesgo (entes de control). 
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | Con frecuencias de tiempo diario.
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | Por turnos, semanales, mensual, trimestral. 
-            li
+            li.d-flex
               i.fas.fa-paper-plane.colr_2
               | De acuerdo a las necesidades y requisitos.
     
     .row.mb-5.pst_2.justify-center
-      .col-12.col-md-6.mb-3.mb-md-0 
+      .col-12.col-lg-6.mb-3.mb-lg-0 
         p.text-bold Objetivos 
         ol.lista-ol--cuadro.lista-ol--separador
           li 
@@ -242,7 +242,7 @@
             .lista-ol--cuadro__vineta
               span 5
             | Sugerir posibles controles.
-      .col-12.col-md-4.align-items-center
+      .col-12.col-lg-4.align-items-center
         figure
           img(src='@/assets/curso/tema4/t4-18.png', alt='Texto que describa la imagen')
     
@@ -278,7 +278,7 @@
     p.mb-5.text-bold Variables o criterios de verificación:
 
     .row.mb-5.justify-center
-      .col-12.col-md-5.bgr_20.p-5
+      .col-12.col-md-6.col-lg-5.bgr_20.p-5
         figure.mb-5.justify-center
           img.img140(src='@/assets/curso/tema4/t4-22.svg', alt='Texto que describa la imagen')
         h3.text-center Cualitativos:
@@ -286,7 +286,7 @@
           .col-8
             p.mb-0 ●	Calidad 
             p.mb-0 ●	Estado de la mercancía 
-      .col-12.col-md-5.bgr_21.p-5
+      .col-12.col-md-6.col-lg-5.bgr_21.p-5
         figure.mb-5.justify-center
           img.img140(src='@/assets/curso/tema4/t4-23.svg', alt='Texto que describa la imagen')
         h3.text-center Cuantitativos: 
@@ -297,35 +297,35 @@
             p.mb-0 ●	Gramaje
     
     .row.mb-5.justify-center.align-items-center
-      .col-12.col-md-4
+      .col-12.col-lg-4.mb-3.mb-lg-0
         p.text-bold La identificación única por artículo o producto facilita:
         ul.lista-ul--color
-          li
+          li.d-flex
             i.fas.fa-paper-plane.colr_2
             | Control de los inventarios.
-          li
+          li.d-flex
             i.fas.fa-paper-plane.colr_2
             | Tipo de servicio.
-          li
+          li.d-flex
             i.fas.fa-paper-plane.colr_2
             span Verificación del <em>stock.</em>
-          li
+          li.d-flex
             i.fas.fa-paper-plane.colr_2
             | Verificación y trazabilidad de la mercancía.
-          li
+          li.d-flex
             i.fas.fa-paper-plane.colr_2
             | Operatividad en tiempo real. 
-          li
+          li.d-flex
             i.fas.fa-paper-plane.colr_2
             | Reducción de costos. 
-      .col-12.col-md-4 
+      .col-12.col-md-8.col-lg-4 
         figure
           img(src='@/assets/curso/tema4/t4-24.svg', alt='Texto que describa la imagen')
 
     p.mb-5 Mecanismos de identificación para los productos: 
 
     .row.mb-5.justify-center
-      .col-12.col-md-3.col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .col-12.col-lg-4.col-xl-3.col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -334,49 +334,49 @@
               p.mb-0.text-bold Sistema Internacional GS1.
               p.mb-0 Codificación de unidades envasadas
               p.mb-0 Representación de caracteres numéricos o alfabéticos en forma de código.
-            .tarjeta-slide__img.d-none.d-md-flex(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-25.png')})`}")
-            .tarjeta-slide__img.d-flex.d-md-none(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-25-1.png')})`}")
-      .col-12.col-md-3.col-sm-6.col-xl-3.mb-4.mb-xl-0
+            .tarjeta-slide__img.d-none.d-xl-flex(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-25.png')})`}")
+            .tarjeta-slide__img.d-flex.d-xl-none(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-25-1.png')})`}")
+      .col-12.col-lg-4.col-xl-3.col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-5.p-xl-5.my-5
               p.mb-5.text-bold Código Datamatrix
               p.mb-0 <b>Código de barras bidimensionales</b> o código de respuesta rápida. Permiten almacenar información en una matriz de puntos. Reduce los errores en la lectura.
-            .tarjeta-slide__img.d-none.d-md-flex(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-26.png')})`}")
-            .tarjeta-slide__img.d-flex.d-md-none(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-26-1.png')})`}")
-      .col-12.col-md-3.col-sm-6.col-xl-3.mb-4.mb-xl-0
+            .tarjeta-slide__img.d-none.d-xl-flex(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-26.png')})`}")
+            .tarjeta-slide__img.d-flex.d-xl-none(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-26-1.png')})`}")
+      .col-12.col-lg-4.col-xl-3.col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-5.p-xl-5.my-5
               p.mb-5.text-bold Etiquetas electrónicas
               p.mb-0 <b>Etiqueta RFID</b>, permite identificación automática usando ondas radiofrecuencias.  Recurso más sofisticado, basado en circuitos y micropocesadores.
-            .tarjeta-slide__img.d-none.d-md-flex(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-27.png')})`}")
-            .tarjeta-slide__img.d-flex.d-md-none(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-27-1.png')})`}")
+            .tarjeta-slide__img.d-none.d-xl-flex(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-27.png')})`}")
+            .tarjeta-slide__img.d-flex.d-xl-none(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-27-1.png')})`}")
     
     .row.mb-5.justify-center
-      .col-12.col-lg-8.bgr_27
+      .col-12.col-xl-8.bgr_27
         p.mt-3 <b>Nota.</b> Sistemas de verificación de mercancías.
     
     p.mb-5 A través de la realización del inventario se podrá realizar un recuento exacto de las mercancías, con el objeto de <b>controlar y verificar</b> las condiciones tanto físicas y de valor; por norma se debe realizar mínimo una vez al año; este ejercicio permitirá establecer el estado general de las mercancías.  Existen principalmente dos tipos de inventarios: los periódicos y los permanentes. Y uno en común que es el inventario físico.
 
-    .row.mb-5
-      .col-12.col-md-4
+    .row.mb-5.justify-center
+      .col-12.col-md-6.col-lg-4
         .tarjeta-avatar.modif_16
           img.modif_15.img100(src='@/assets/curso/tema4/t4-28.svg' alt='AvatarTop')
           .tarjeta.bgr_28
             .p-4
               p.text-bold Inventario periódico
               p.mb-0 Se realiza al finalizar el periodo, el cual realiza el cómputo de toda la mercancía existente en el momento de aplicarlo.
-      .col-12.col-md-4
+      .col-12.col-md-6.col-lg-4
         .tarjeta-avatar.modif_16
           img.modif_15.img100(src='@/assets/curso/tema4/t4-29.svg' alt='AvatarTop')
           .tarjeta.bgr_28
             .p-4
               p.text-bold Inventario permanente
               p.mb-0 Es aquel conteo que se realiza de manera continua tanto de entradas como salidas; es desarrollado con aplicaciones informáticas <em>(software)</em>, lo cual permite establecer diferencias por deterioros, daños, inconsistencias o pérdidas.
-      .col-12.col-md-4
+      .col-12.col-md-6.col-lg-4
         .tarjeta-avatar.modif_16
           img.modif_15.img100(src='@/assets/curso/tema4/t4-30.svg' alt='AvatarTop')
           .tarjeta.bgr_28
@@ -385,7 +385,7 @@
               p.mb-0 Es realizado en el almacén para determinar las existencias físicas de las mercancías por medio de inspección ocular e ir anotando las unidades, lotes y/o referencias.
     
     .row.justify-center
-      .col-12.col-md-4
+      .col-12.col-md-10.col-lg-4
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=iM7gUJ75_8w" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
