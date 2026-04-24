@@ -17,8 +17,8 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Fundamentos de la gestión y control de inventarios',
-      titulo: 'Cuestionario',
+      tema: 'Gestión de inventarios',
+      titulo: 'Fundamentos de la gestión y control de inventarios',
       introduccion:
         '<b> Objetivo:</b> identificar los conocimientos previos del estudiante sobre la gestión, clasificación y control de inventarios.',
       barajarPreguntas: true,
