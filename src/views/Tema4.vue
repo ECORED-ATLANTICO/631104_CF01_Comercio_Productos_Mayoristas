@@ -13,10 +13,16 @@
       .col-12.col-lg-5.col-lg-5.order-1.orde-lg-2.mb-3.mb-lg-0
         figure
           img(src='@/assets/curso/tema4/t4-1.png', alt='Texto que describa la imagen')
-    
-    SlyderB.mb-5(:datos="datosSlyder")
+    .row.justify-center.mb-5
+      .col-12.col-lg-7
+        h5.mb-5 Administración y control de inventarios
+        p El verbo "inventario" se refiere al acto de contar o enumerar artículos. Como término contable, el inventario es un activo corriente y se refiere a todas las existencias en las distintas fases de producción.
+        p El inventario es un activo importante en el balance de la mayoría de las empresas; un exceso de inventario puede convertirse en un pasivo práctico.
+        p Al mantener las existencias, tanto los minoristas como los fabricantes pueden seguir vendiendo y fabricando artículos; tener presente que el exceso de inventarios puede traer problemas financieros, el mismo forma parte de los activos.
+      .col-12.col-lg-5
+        figure
+          img(src='@/assets/curso/tema4/t4-4.png', alt='Texto que describa la imagen')
 
-    p.mb-5 Aclaramos que algunos autores  no reconocen el MRO como un tipo de inventario.  Relacionamos las mejores.
 
     .row.mb-5(data-aos="fade-right")
       .col-10.col-lg-4.position-relative
@@ -284,17 +290,17 @@
         h3.text-center Cualitativos:
         .row.justify-center
           .col-8
-            p.mb-0 ●	Calidad 
-            p.mb-0 ●	Estado de la mercancía 
+            p.mb-0 ●	Calidad.
+            p.mb-0 ●	Estado de la mercancía. 
       .col-12.col-md-6.col-lg-5.bgr_21.p-5
         figure.mb-5.justify-center
           img.img140(src='@/assets/curso/tema4/t4-23.svg', alt='Texto que describa la imagen')
         h3.text-center Cuantitativos: 
         .row.justify-center
           .col-7
-            p.mb-0 ●	Peso 
-            p.mb-0 ●	Volumen
-            p.mb-0 ●	Gramaje
+            p.mb-0 ●	Peso. 
+            p.mb-0 ●	Volumen.
+            p.mb-0 ●	Gramaje.
     
     .row.mb-5.justify-center.align-items-center
       .col-12.col-lg-4.mb-3.mb-lg-0
@@ -324,40 +330,34 @@
 
     p.mb-5 Mecanismos de identificación para los productos: 
 
-    .row.mb-5.justify-center
-      .col-12.col-lg-4.col-xl-3.col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-5.p-xl-5.my-5
-              p.mb-5.text-bold Código de Barras
-              p.mb-0.text-bold Sistema Internacional GS1.
-              p.mb-0 Codificación de unidades envasadas
-              p.mb-0 Representación de caracteres numéricos o alfabéticos en forma de código.
-            .tarjeta-slide__img.d-none.d-xl-flex(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-25.png')})`}")
-            .tarjeta-slide__img.d-flex.d-xl-none(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-25-1.png')})`}")
-      .col-12.col-lg-4.col-xl-3.col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-5.p-xl-5.my-5
-              p.mb-5.text-bold Código Datamatrix
-              p.mb-0 <b>Código de barras bidimensionales</b> o código de respuesta rápida. Permiten almacenar información en una matriz de puntos. Reduce los errores en la lectura.
-            .tarjeta-slide__img.d-none.d-xl-flex(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-26.png')})`}")
-            .tarjeta-slide__img.d-flex.d-xl-none(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-26-1.png')})`}")
-      .col-12.col-lg-4.col-xl-3.col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-5.p-xl-5.my-5
-              p.mb-5.text-bold Etiquetas electrónicas
-              p.mb-0 <b>Etiqueta RFID</b>, permite identificación automática usando ondas radiofrecuencias.  Recurso más sofisticado, basado en circuitos y micropocesadores.
-            .tarjeta-slide__img.d-none.d-xl-flex(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-27.png')})`}")
-            .tarjeta-slide__img.d-flex.d-xl-none(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-27-1.png')})`}")
+    .row.justify-content-center.mb-5
+      .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema4/t4-25.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Código de Barras
+            h5 Sistema Internacional GS1.
+            p.mb-0 Codificación de unidades envasada. Representación de caracteres numéricos o alfabéticos en forma de código.
+      .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema4/t4-26.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Código Datamatrix
+            p.mb-0 <b>Código de barras bidimensionales</b> o código de respuesta rápida. Permiten almacenar información en una matriz de puntos. Reduce los errores en la lectura.
     
-    .row.mb-5.justify-center
-      .col-12.col-xl-8.bgr_27
-        p.mt-3 <b>Nota.</b> Sistemas de verificación de mercancías.
+      .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema4/t4-27.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Etiquetas electrónicas
+            p.mb-0 <b>Etiqueta RFID</b>, permite identificación automática usando ondas radiofrecuencias.  Recurso más sofisticado, basado en circuitos y microprocesadores.
+
     
     p.mb-5 A través de la realización del inventario se podrá realizar un recuento exacto de las mercancías, con el objeto de <b>controlar y verificar</b> las condiciones tanto físicas y de valor; por norma se debe realizar mínimo una vez al año; este ejercicio permitirá establecer el estado general de las mercancías.  Existen principalmente dos tipos de inventarios: los periódicos y los permanentes. Y uno en común que es el inventario físico.
 
@@ -401,31 +401,31 @@ export default {
   data: () => ({
     datosSlyder: [
       {
-        titulo: 'ADMINISTRACIÓN Y CONTROL DE INVENTARIOS',
+        titulo: 'Administración y control de inventarios',
         texto:
           'La administración de inventarios es la contabilidad de los artículos, componentes y materias primas que una empresa utiliza en la producción o venta.  Un líder empresarial, debe llevar a la práctica la gestión de inventarios para asegurarse de que tiene suficientes existencias a mano y para identificar cuándo hay una escasez.',
         imagen: require('@/assets/curso/tema4/t4-2.png'),
       },
       {
-        titulo: 'ADMINISTRACIÓN Y CONTROL DE INVENTARIOS',
+        titulo: 'Administración y control de inventarios',
         texto:
           'El verbo "inventario" se refiere al acto de contar o enumerar artículos. Como término contable, el inventario es un activo corriente y se refiere a todas las existencias en las distintas fases de producción.',
         imagen: require('@/assets/curso/tema4/t4-3.png'),
       },
       {
-        titulo: 'ADMINISTRACIÓN Y CONTROL DE INVENTARIOS',
+        titulo: 'Administración y control de inventarios',
         texto:
           'El inventario es un activo importante en el balance de la mayoría de las empresas; un exceso de inventario puede convertirse en un pasivo práctico.',
         imagen: require('@/assets/curso/tema4/t4-4.png'),
       },
       {
-        titulo: 'ADMINISTRACIÓN Y CONTROL DE INVENTARIOS',
+        titulo: 'Administración y control de inventarios',
         texto:
           'Existen  diferentes tipos de inventario: materias primas, trabajos en curso (WIP), productos terminados, inventario de desacoplamiento, existencias de seguridad, materiales de embalaje, inventario de ciclo, inventario de servicio, tránsito, teórico, exceso y mantenimiento, reparación y operaciones (MRO).',
         imagen: require('@/assets/curso/tema4/t4-5.png'),
       },
       {
-        titulo: 'ADMINISTRACIÓN Y CONTROL DE INVENTARIOS',
+        titulo: 'Administración y control de inventarios',
         texto:
           'Al mantener las existencias, tanto los minoristas como los fabricantes pueden seguir vendiendo y fabricando artículos; tener presente que el exceso de inventarios puede traer problemas financieros, el mismo forma parte de los activos.',
         imagen: require('@/assets/curso/tema4/t4-6.png'),

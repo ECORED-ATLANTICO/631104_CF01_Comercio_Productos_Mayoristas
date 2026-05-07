@@ -37,8 +37,22 @@
           h4.mb-lg-5.mb-lg-5 Esquemas de precios (facturación)
           p Debe cubrir los costes de la materia prima, insumos, la mano de obra, la tecnología, la maquinaria o equipo que empleas, el alquiler de local, mantenimiento de equipos, sueldos, entre otros factores usados en su elaboración.
         .col-12.col-lg-8.col-lg-8
-          figure
-            img(src='@/assets/curso/tema2/t2-4.svg', alt='Texto que describa la imagen')
+          .bgr_5.p-4.p-xl-5
+            p Vamos a conocer tres metodos principales para determinar los precios:
+            .row.justify-center
+              .col-lg-4.mb-3.mb-lg-0
+                .bgr_23.p-3.p-xl-4.h-100
+                  h5.bgr_9 01. Método basado en el coste
+                  p Se fija el precio a partir del coste sumando un margen de beneficio.
+              .col-lg-4.mb-3.mb-lg-0  
+                .bgr_23.p-3.p-xl-4.h-100
+                  h5.bgr_30 02. Método basado en la demanda
+                  p Se analiza el consumidor y se fija un precio según el valor que este le de al producto.
+              .col-lg-4.mb-3.mb-lg-0
+                .bgr_23.p-3.p-xl-4.h-100
+                  h5.bgr_7 03. Método basado en la competencia
+                  p Se fija el precio a partir del precio de la competencia y la calidad del producto.
+          
       .row.p-3.p-lg-5
         .col-12.col-lg-4.col-lg-4
           h4.mb-lg-5.mb-lg-5 Jerarquía de productos
@@ -138,7 +152,7 @@
             | El etiquetado confiere a un producto una identidad propia que lo distingue de otros en el mercado.
         div.position-relative.mb-3
           .modif_5
-          p #[strong 2. Casificación.] 
+          p #[strong 2. Clasificación.] 
             | El etiquetado clasifica las cosas en distintos grados.
         div.position-relative.mb-3
           .modif_6
@@ -197,7 +211,7 @@
               | Caducidad.
             li.d-flex
               i.fas.fa-paper-plane.colr_2
-              | Componentes o peli.d-flexgrosidad.
+              | Componentes o peligrosidad.
             li.d-flex
               i.fas.fa-paper-plane.colr_2
               | Detectar la mercancía de forma inequívoca (no puede haber 2 productos con el mismo código).
@@ -206,7 +220,7 @@
               | El sistema de administración de bodegas juega un papel protagonista en este proceso. 
             li.d-flex
               i.fas.fa-paper-plane.colr_2
-              | El software más común usado en logística para administrar almacenes es conocido como el WMS.
+              p.mb-0 El <em>software</em> más común usado en logística para administrar almacenes es conocido como el WMS.
             li.d-flex
               i.fas.fa-paper-plane.colr_2
               | Almacenamiento de mercancías de menor tamaño.
@@ -223,8 +237,8 @@
     .row.mb-5.justify-center.pst_2
       .col-12.col-lg-6.align-items-center.mb-3.mb-lg-0
         div
-          p.text-bold Funcionalidad Codificación UNSPSC
-          p La metodología uniforme de codificación utilizada para clasificar productos y servicios está fundamentada en un acuerdo jerárquico y en una estructura lógica de la <b>The United Nations Standard Products and Services Code® - UNSPSC –</b> entidad Estándar de Productos y Servicios de Naciones Unidas. La versión implementada en Colombia es la UNSPSC, V.14.080.
+          p.text-bold Funcionalidad de Codificación UNSPSC
+          p La metodología uniforme de codificación utilizada para clasificar productos y servicios está fundamentada en un acuerdo jerárquico y en una estructura lógica de la <b><em>The United Nations Standard Products and Services Code®</em> - UNSPSC –</b> entidad Estándar de Productos y Servicios de Naciones Unidas. La versión implementada en Colombia es la UNSPSC, V.14.080.
       .col-12.col-lg-4
         figure
           img(src='@/assets/curso/tema2/t2-13.png', alt='Texto que describa la imagen')
@@ -291,10 +305,10 @@
 
     h3.mb-5 Ventajas de la codificación de productos
 
-    p.text-bold La codificación es de enorme utilidad en todos los eslabones de la cadena logística, desde el fabricante hasta el consumidor final. A los empresarios y fabricantes, les ayuda a estar al corriente del estado de sus existencias y a ubicar los artículos con velocidad
-    p.mb-5 Los clientes, por su lado, se benefician de las buenas prácticas logísticas que implementan las organizaciones y, por consiguiente, de que haya productos en stock una vez que van a mercar o de recibir rápido y sin errores sus demandas en línea. 
+    p.text-bold La codificación es de enorme utilidad en todos los eslabones de la cadena logística, desde el fabricante hasta el consumidor final. A los empresarios y fabricantes, les ayuda a estar al corriente del estado de sus existencias y a ubicar los artículos con velocidad.
+    p.mb-5 Los clientes, por su lado, se benefician de las buenas prácticas logísticas que implementan las organizaciones y, por consiguiente, de que haya productos en <em>stock</em> una vez que van a mercar o de recibir rápido y sin errores sus demandas en línea. 
 
-    p A continuación se muestran las siguientes ventajas:
+    p A continuación, se muestran las siguientes ventajas:
 
     .row
       .col-12.col-lg-6
@@ -386,8 +400,8 @@
               tr
                 td.bgr_14.text-center.modif_14(rowspan="2")
                   p.mb-0.text-bold Banda 
-                  p.mb-0.text-bold transportadora
-                td.bgr_15.text-bold.text-center Transportadora de banda
+                  p.mb-0.text-bold transportadora.
+                td.bgr_15.text-bold Transportadora de banda.
                 td.bgr_16.text-small.ps-4 - Plataforma de goma deslizante, sobre conjunto de rodillos.
                   br
                   |- Aplica para embalajes de base irregular.
@@ -395,21 +409,21 @@
                   |- Transporte a granel.
                   br
                   |- Adecuada para trayecto largos, con curvas y diferentes niveles.
-                td.justify-center 
+                td
                   img.img180(src='@/assets/curso/tema2/t2-30.png' alt='AvatarTop') 
               tr
-                td.bgr_15.text-bold.text-center Transportadora de rodillos
+                td.bgr_15.text-bold Transportadora de rodillos.
                 td.bgr_16.text-small.ps-4 - Plataforma de rodillos, sobre rodamientos.
                   br
                   |- Opera en función del tipo de mercancía.
                   br
                   |- Los productos se desplazan como consecuencia de la gravedad.
-                td.justify-center 
+                td
                   img.img180(src='@/assets/curso/tema2/t2-31.png' alt='AvatarTop')
               tr
                 td.bgr_14.text-bold.modif_14 
-                  p.mb-0.text-bold.text-center Lanzadera
-                td.bgr_15.text-bold.text-center Vehículo que comunica varias áreas del almacén
+                  p.mb-0.text-bold.text-center Lanzadera.
+                td.bgr_15.text-bold Vehículo que comunica varias áreas del almacén.
                 td.bgr_16.text-small.ps-4 - Desplazamiento altas velocidades.
                   br
                   |- Movimientos en línea recta.
@@ -420,12 +434,12 @@
                   br
                   |- Requiere uso de telémetros (láser).
 
-                td.justify-center 
+                td 
                   img.img180(src='@/assets/curso/tema2/t2-32.png' alt='AvatarTop')
               tr
                 td.bgr_14.text-bold.modif_14  
-                  p.mb-0.text-bold.text-center Grúa aérea
-                td.bgr_15.text-bold.text-center Equipo de transporte fijo al techo
+                  p.mb-0.text-bold.text-center Grúa aérea.
+                td.bgr_15.text-bold Equipo de transporte fijo al techo.
                 td.bgr_16.text-small.ps-4 - Permite transporte de mercancía dentro del almacén a diferentes zonas.
                   br
                   |- Mantiene despejado el suelo.
@@ -433,19 +447,19 @@
                   |- Requiere techos muy altos en el almacén.
                   br
                   |- Uso principal del sector automotriz.
-                td.justify-center 
+                td
                   img.img180(src='@/assets/curso/tema2/t2-33.png' alt='AvatarTop')
               tr
                 td.bgr_14.text-bold.modif_14  
-                  p.mb-0.text-bold.text-center Transelevadores
-                td.bgr_15.text-bold.text-center Equipo que se desplaza por pasillos estrechos a velocidad alta
+                  p.mb-0.text-bold.text-center Transelevadores.
+                td.bgr_15.text-bold Equipo que se desplaza por pasillos estrechos a velocidad alta.
                 td.bgr_16.text-small.ps-4 - Diseñados especialmente para almacenes automatizados.
                   br
-                  |- Operan con dos moviemintos: longitudinal sobre rail y otro vertical para extraer o colocar pallets.
+                  |- Operan con dos moviemintos: longitudinal sobre raíl y otro vertical para extraer o colocar <em>pallets</em>.
                   br
-                  |- Desarrollan tareas de picking a gran altura.
-                td.justify-center 
-                  img(src='@/assets/curso/tema2/t2-34.png' alt='AvatarTop' style="width:  207px")
+                  |- Desarrollan tareas de <em>picking</em> a gran altura.
+                td 
+                  img.img180(src='@/assets/curso/tema2/t2-34.png' alt='AvatarTop')
 
     .row.mb-5.justify-center
       .col-12.col-md-10
@@ -475,8 +489,8 @@
             tbody
               tr
                 td.bgr_14.text-center.modif_14
-                  p.mb-0.text-bold Transpaletas
-                td.bgr_15.text-bold.text-center Equipo mecánico de transporte
+                  p.mb-0.text-bold Transpaletas.
+                td.bgr_15.text-bold Equipo mecánico de transporte.
                 td.bgr_16.text-small.ps-4 - Sirven de apoyo a otros equipos.
                   br
                   |- Transportan la carga a distancias cortas.
@@ -485,23 +499,23 @@
                   br
                   |- Apoyan actividades del muelle.
 
-                td.justify-center 
+                td
                   img.img180(src='@/assets/curso/tema2/t2-36.png' alt='AvatarTop') 
               tr
                 td.bgr_14.text-center.modif_14
-                  p.mb-0.text-bold Apiladores
-                td.bgr_15.text-bold.text-center Similar a transpaletas, pero con mástil telescópico
+                  p.mb-0.text-bold Apiladores.
+                td.bgr_15.text-bold Similar a transpaletas, pero con mástil telescópico.
                 td.bgr_16.text-small.ps-4 - Plataforma de rodillos, sobre rodamientos.
                   br
                   |- Opera en función del tipo de mercancía.
                   br
                   |- Los productos se desplazan como consecuencia de la gravedad.
-                td.justify-center 
+                td
                   img.img180(src='@/assets/curso/tema2/t2-37.png' alt='AvatarTop')
               tr
                 td.bgr_14.text-bold.modif_14 
-                  p.mb-0.text-bold.text-center Carretillas
-                td.bgr_15.text-bold.text-center Tipos: Carretilla retráctil, contrabalanceada de toma lateral (bi o trilateral)
+                  p.mb-0.text-bold.text-center Carretillas.
+                td.bgr_15.text-bold Tipos: Carretilla retráctil, contrabalanceada de toma lateral (bi o trilateral).
                 td.bgr_16.text-small.ps-4 - Movimientos vertical y horizontal.
                   br
                   |- Levanta cargas hasta 10m.
@@ -511,12 +525,12 @@
                   |- Recorridos medio-largo.
                   br
                   |- Uso en: ubicación y apilado de mercancía.
-                td.justify-center 
+                td
                   img.img180(src='@/assets/curso/tema2/t2-38.png' alt='AvatarTop')
               tr
                 td.bgr_14.text-bold.modif_14  
-                  p.mb-0.text-bold.text-center AGV
-                td.bgr_15.text-bold.text-center <em>Automatic Guided Vehicles</em>
+                  p.mb-0.text-bold.text-center AGV.
+                td.bgr_15.text-bold <em>Automatic Guided Vehicles.</em>
                 td.bgr_16.text-small.ps-4 - No requieren conductor (inteligentes).
                   br
                   |- Ordenador que comunica con PC.
@@ -524,7 +538,7 @@
                   |- Aplica diferentes técnicas de guía: hilo conductor a poca profundidad del suelo: uso banda magnética sobre el suelo.
                   br
                   |- Sigue un trayecto orientado por demarcación.
-                td.justify-center 
+                td
                   img.img180(src='@/assets/curso/tema2/t2-39.png' alt='AvatarTop')
 
     .row.mb-5(data-aos="fade-right")
@@ -580,7 +594,7 @@
       .col-12.col-lg-10.col-xl-7
         .titulo-sexto.color-acento-botones  
           h5 Tabla 3.
-          span Número de personas y la extracción del producto(s):
+          span Número de personas y la extracción del producto:
         .tabla-a.color-acento-botones.mb-5.modif_24
           table.bgr_17
             caption Nota. Relación de factores en la manipulación de productos.  
@@ -590,25 +604,21 @@
                 th(style="width:60%") Características
             tbody
               tr
-                td.bgr_15.text-bold.text-center 
-                  p.mb-0.text-bold Extracción 
-                  p.mb-0.text-bold INDIVIDUAL
-                td.ps-3.ps-md-4.bgr_16 UN pedido preparado por UNA persona
+                td.bgr_15.text-bold
+                  p.mb-0.text-bold Extracción individual.
+                td.ps-3.ps-md-4.bgr_16 Un pedido preparado por una persona
               tr
-                td.bgr_15.text-bold.text-center 
-                  p.mb-0.text-bold Extracción 
-                  p.mb-0.text-bold INDIVIDUAL DIVIDIDA
-                td.ps-3.ps-md-4.bgr_16 Un pedido preparado por VARIAS personas
+                td.bgr_15.text-bold
+                  p.mb-0.text-bold Extracción individual dividida.
+                td.ps-3.ps-md-4.bgr_16 Un pedido preparado por varias personas
               tr
-                td.bgr_15.text-bold.text-center 
-                  p.mb-0.text-bold Extracción 
-                  p.mb-0.text-bold CONJUNTA
-                td.ps-3.ps-md-4.bgr_16 VARIOS pedidos preparados por UNA persona
+                td.bgr_15.text-bold
+                  p.mb-0.text-bold Extracción conjunto.
+                td.ps-3.ps-md-4.bgr_16 Varios pedidos preparados por una persona
               tr
-                td.bgr_15.text-bold.text-center 
-                  p.mb-0.text-bold Extracción 
-                  p.mb-0.text-bold CONJUNTA DIVIDIDA
-                td.ps-3.ps-md-4.bgr_16 VARIOS pedidos preparados por VARIAS personas
+                td.bgr_15.text-bold
+                  p.mb-0.text-bold Extracción conjunta dividida.
+                td.ps-3.ps-md-4.bgr_16 Varios pedidos preparados por varias personas
 
     figure.mb-5
       img(src='@/assets/curso/tema2/t2-48.png', alt='Texto que describa la imagen')
@@ -617,39 +627,39 @@
       .col-12.col-lg-10
         .titulo-sexto.color-acento-botones  
           h5 Tabla 4.
-          span Recorrido y movimiento de las personas:
+          span Recorrido y movimiento de las personas
         .tabla-a.color-acento-botones.mb-5.modif_24
           table.bgr_17
-            caption.text-center Nota. Relación de factores en la manipulación de mercancías o pedidos.   
+            caption Nota. Relación de factores en la manipulación de mercancías o pedidos.   
             thead
               tr
                 th(style="width:25%") Equipo
                 th(style="width:75%")  Características
             tbody
               tr
-                td.bgr_15.text-bold.text-center 
-                  p.mb-0.text-bold Persona al Producto
+                td.bgr_15.text-bold 
+                  p.mb-0.text-bold Persona al Producto.
                 td.ps-3.ps-md-4.bgr_16 La persona se desplaza a pie hasta el producto.
                   br
-                  | <b>Requisito</b>: Cantidad de pedidos baja, almacén pequeño, distancias cortas, uso de equipos manuales. 
+                  | <b>Requisito</b>: cantidad de pedidos baja, almacén pequeño, distancias cortas, uso de equipos manuales. 
               tr
-                td.bgr_15.text-bold.text-center 
-                  p.mb-0.text-bold Producto a la Persona
+                td.bgr_15.text-bold 
+                  p.mb-0.text-bold Producto a la Persona.
                 td.ps-3.ps-md-4.bgr_16 Desplazamiento de los pedidos hasta las personas en forma manual o automática.
                   br
-                  | <b>Requisito</b>: Cantidad de pedidos medio-alto, salida del producto en unidades o cajas, distancias medio-largas, abastecimiento con palé, utilización de sistemas de gestión informáticos (SGA) en la preparación de pedidos. 
+                  | <b>Requisito</b>: cantidad de pedidos medio-alto, salida del producto en unidades o cajas, distancias medio-largas, abastecimiento con palé, utilización de sistemas de gestión informáticos (SGA) en la preparación de pedidos. 
               tr
-                td.bgr_15.text-bold.text-center 
-                  p.mb-0.text-bold Una persona – varios pedidos
+                td.bgr_15.text-bold 
+                  p.mb-0.text-bold Una persona - varios pedidos.
                 td.ps-3.ps-md-4.bgr_16 La persona se desplaza hasta el producto; aunque conlleva a una doble planificación y gestión.
                   br
-                  | <b>Requisito</b>: Cantidad de pedidos media-alta, cantidad de líneas de pedido medio, los medios para movilizar utilizados normalmente son carretillas de dos niveles, y aplicación de recursos informáticos como el código de barras.
+                  | <b>Requisito</b>: cantidad de pedidos media-alta, cantidad de líneas de pedido medio, los medios para movilizar utilizados normalmente son carretillas de dos niveles, y aplicación de recursos informáticos como el código de barras.
               tr
-                td.bgr_15.text-bold.text-center 
-                  p.mb-0.text-bold Varias personas – varios pedidos
+                td.bgr_15.text-bold 
+                  p.mb-0.text-bold Varias personas - varios pedidos.
                 td.ps-3.ps-md-4.bgr_16 Las personas se desplazan hasta los productos para prepararlos cuando lo requieran por sus características y a la vez en el mismo pedido se debe aplicar un sistema de producto a la persona.
                   br
-                  | <b>Requisito</b>:  Desfragmentar el pedido y separar los productos; por ejemplo: tornillos de 5 cm y tuercas de 5 cm; un producto fresco de uno congelado, etc. Posteriormente se consolida el pedido para realizar un solo envío.
+                  | <b>Requisito</b>:  desfragmentar el pedido y separar los productos; por ejemplo: tornillos de 5 cm y tuercas de 5 cm; un producto fresco de uno congelado, etc. Posteriormente se consolida el pedido para realizar un solo envío.
                 
     separador
 
@@ -759,7 +769,7 @@
                 img(src='@/assets/curso/tema2/t2-62.png', alt='Texto que describa la imagen')
             .col-12.col-lg-6.col-lg-6
               h4.mb-lg-4 Novedad respecto al riesgo en seguridad de la mercancía
-              p Metales preciosos y otros objetos de valor.  Dinero en efectivo, joyas o piedras finas.  Bonos o tickets pagaderos al portador.  Antigüedades y obras de arte.
+              p Metales preciosos y otros objetos de valor.  Dinero en efectivo, joyas o piedras finas.  Bonos o <em>tickets</em> pagaderos al portador.  Antigüedades y obras de arte.
           .row
             .col-12.col-lg-6.col-lg-6.mb-3.mb-lg-0
               figure

@@ -111,7 +111,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CFA1_631104_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -164,7 +164,7 @@ export default {
     {
       termino: 'Código de barras',
       significado:
-        'Código basado en la representación de un conjunto de líneas paralelas de distinto grosor y espaciado que en su conjunto contienen una determinada información',
+        'Código basado en la representación de un conjunto de líneas paralelas de distinto grosor y espaciado que en su conjunto contienen una determinada información.',
     },
     {
       termino: 'Equipo de almacenamiento',
@@ -208,8 +208,7 @@ export default {
     {
       referencia:
         'Gómez Aparicio,  J. M.(2013). <em>Gestión logística y comercial</em>. Aravaca, Madrid: McGraw-Hill España.',
-      link:
-        'http://190.116.26.93:2171/mdv-biblioteca-virtual/libro/documento/8zdvWxHm4ut8z7BGJQqtLK_GESTION_LOGISTICA_Y_COMERCIAL.pdf',
+      link: '',
     },
   ],
   creditos: [

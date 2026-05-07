@@ -22,7 +22,7 @@
       .col-12.col-lg-10
         .titulo-sexto.color-acento-botones  
           h5 Tabla 5.
-          span Metodologías verificación y control de mercancías.
+          span Metodologías verificación y control de mercancías
         .tabla-a.color-acento-botones.mb-5.modif_24
           table.bgr_17
             caption Nota. Control de inventarios. 
@@ -32,26 +32,26 @@
                 th(style="width:60%") Características
             tbody
               tr
-                td.bgr_15.text-bold.text-center 
-                  p.mb-0.text-bold Gestión de las existencias
+                td.bgr_15.text-bold 
+                  p.mb-0.text-bold Gestión de las existencias.
                 td.ps-3.ps-md-4.bgr_16
                   p <b>LIFO</b> <em>(Last In First Out)</em>: último que entra es el primero que sale.  Habitualmente para productos que no tienen caducidad.
                   p <b>FIFO</b> <em>(First In First Out)</em>: primero que entra es el primero que sale. La mercancía con mayor  es la que primero debe salir.
-                  p <b>FEFO</b> <em>(Firs expires first out)</em> el primero que caduca es el primero que sale. La mercancía se ubica de acuerdo a la fecha de vencimiento, para que salga primero.
+                  p <b>FEFO</b> <em>(Firs expires first out)</em>: el primero que caduca es el primero que sale. La mercancía se ubica de acuerdo a la fecha de vencimiento, para que salga primero.
               tr
-                td.bgr_15.text-bold.text-center 
-                  p.mb-0.text-bold Metodologías de conteode la mercancía
+                td.bgr_15.text-bold 
+                  p.mb-0.text-bold Metodologías de conteode la mercancía.
                 td.ps-3.ps-md-4.bgr_16 
                   p <b>Periódico</b>: el contero se realiza al final del periodo.
                   p <b>Permanente</b>: se realiza continuamente la verificación de las existencias. El inventario permanece actualizado.
                   p <b>Físico</b>: verificación ocular  de las existencias registradas.  Importante realizar en periodos de baja actividad, para no interferir con el proceso.
               tr
-                td.bgr_15.text-bold.text-center 
-                  p.mb-0.text-bold Distribución de inventarios (ABC)
+                td.bgr_15.text-bold 
+                  p.mb-0.text-bold Distribución de inventarios (ABC).
                 td.ps-3.ps-md-4.bgr_16 
-                  p <b>Productos A:</b> rotación de productos Alta o Muy Alta.
-                  p <b>Productos B:</b> rotación de productos Media.
-                  p <b>Productos C:</b> rotación de productos Baja o Nula.
+                  p <b>Productos A:</b> rotación de productos alta o muy alta.
+                  p <b>Productos B:</b> rotación de productos media.
+                  p <b>Productos C:</b> rotación de productos baja o nula.
             
 
     p La gestión de existencias es el área encargada de regular y optimizar los niveles de <em>stock</em> en la instalación. Para ello, se suelen utilizar <b>programas informáticos que hacen un seguimiento preciso de los movimientos de las existencias.</b>
@@ -62,7 +62,7 @@
         figure.mb-5.justify-center
           img.img140(src='@/assets/curso/tema3/t3-3.svg', alt='Texto que describa la imagen')
         h3.mb-5.text-center Dispositivos de lectura y transmisión de datos
-        p.text-center.mb-0 Los terminales de radiofrecuencia y otros sistemas, como el <em>picking</em> por voz y el <em>pick-to-light</em>, sirven de enlace entre el sistema informático y el mundo físico.
+        p.text-center.mb-0 Los terminales de radiofrecuencia y otros sistemas, como el <em>picking</em> por voz y el <em>pick to light</em>, sirven de enlace entre el sistema informático y el mundo físico.
       .col-12.col-md-6.col-lg-5.bgr_21.p-5
         figure.mb-5.justify-center
           img.img140(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')

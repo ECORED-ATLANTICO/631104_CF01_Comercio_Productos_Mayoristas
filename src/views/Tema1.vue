@@ -21,7 +21,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/nyTqy5fuPJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Normativa vigente de seguridad para el manejo de mercancías en el almacén
-    p.text-bold A continuación se presenta la clasificación de mercancías según sus características y su naturaleza
+    p.text-bold A continuación se presenta la clasificación de mercancías según sus características y su naturaleza.
 
     .bgr
       .row.mb-5.justify-center
@@ -85,7 +85,6 @@
         h3.p-3.bgr_2.text-center Según su naturaleza
         img.pst(src='@/assets/curso/tema1/t1-4.svg' alt='AvatarTop')
     
-    p.mb-5 Clasificación de las mercancías según su naturaleza.
 
     .row.mb-5
       .col-md-6.col-lg-3.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-up")
@@ -93,7 +92,7 @@
           figure.mb-3.justify-center 
             img.img90(src='@/assets/curso/tema1/t1-12.svg' alt='AvatarTop')
           p.text-bold Mercancías no perecederas
-          p.mb-0 Mercancías que a mediano y corto plazo, no se deterioran.
+          p.mb-0 Mercancías que, a mediano y corto plazo, no se deterioran.
       .col-md-6.col-lg-3.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-down")
         .bgr_3.p-4.h-100
           figure.mb-3.justify-center 
@@ -176,7 +175,7 @@
               img.img90(src='@/assets/curso/tema1/t1-24.svg' alt='AvatarTop')
           .col-12.col-lg-10.align-items-center
             div
-              p.text-bold Clase 6. Sustancias Tóxicas e infecciosas:  
+              p.text-bold Clase 6. Sustancias tóxicas e infecciosas:  
               | Se denominan así los venenos o químicos que pueden afectar al ser humano, en parte o en su totalidad, se debe evitar el contacto con dichos elementos, tragarlos o inhalarlos.  
     .row.mb-3(data-aos="zoom-in-up")
       .col-12.col-lg-6
@@ -187,7 +186,7 @@
               img.img90(src='@/assets/curso/tema1/t1-21.svg' alt='AvatarTop')
           .col-12.col-lg-10.align-items-center
             div
-              p.text-bold Clase 7. Material Radioactivo: 
+              p.text-bold Clase 7. Material radioactivo: 
               | Son mercancías que emiten radiación invisible y puede dañar el cuerpo y los sentidos según el tipo de radiación.
       .col-12.col-lg-6
         .row.justify-center

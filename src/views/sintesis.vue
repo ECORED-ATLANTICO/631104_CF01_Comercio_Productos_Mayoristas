@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="La imagen presenta un mapa conceptual sobre la gestión de inventarios, donde el concepto central se conecta con varios ejes principales: las características del producto, que incluyen su naturaleza y categorías; la categorización de inventarios, asociada al stock, características y tipos; el maestro de productos, que abarca aspectos como etiquetado, codificación, almacenamiento y aplicaciones; y la administración y control de inventarios, que se relaciona con técnicas, inspección de elementos y procesos de recibo y despacho, mostrando de forma estructurada los componentes clave para la organización y manejo eficiente de inventarios. ")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
