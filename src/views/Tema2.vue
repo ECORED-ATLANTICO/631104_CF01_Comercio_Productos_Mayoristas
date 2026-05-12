@@ -14,14 +14,14 @@
       .col-12.col-lg-6.col-lg-6.align-items-center.bg_grad-02(data-aos="fade-left")
         div
           p El  maestro de productos es una solución de gestión de datos de los inventarios que recopila, valida, enriquece y agrupa todos los datos relacionados con los productos de la organización en una copia completa, precisa y fácil de reportar. 
-          p.text-bold Los datos de los productos varían de acuerdo con:
+          p Los datos de los productos varían de acuerdo con:
     
   
     SlyderA(tipo="b").bgr_4.modif.modif_2.mb-5
       .row.p-3.p-md-5.p-lg-5
         .col-12.col-lg-4.col-lg-4
           h4.mb-lg-5.mb-lg-5 Tipos de productos
-          p Se clasifican de acuerdo con dos elementos fundamentales; su nivel de transformación física o procesamiento y su tipo de uso o mercado destino.
+          p Se clasifican de acuerdo con dos elementos fundamentales: su nivel de transformación física o procesamiento y su tipo de uso o mercado destino.
         .col-12.col-lg-8.col-lg-8
           figure
             img(src='@/assets/curso/tema2/t2-2.png', alt='Texto que describa la imagen')
@@ -35,7 +35,7 @@
       .row.p-3.p-lg-5
         .col-12.col-lg-4.col-lg-4
           h4.mb-lg-5.mb-lg-5 Esquemas de precios (facturación)
-          p Debe cubrir los costes de la materia prima, insumos, la mano de obra, la tecnología, la maquinaria o equipo que empleas, el alquiler de local, mantenimiento de equipos, sueldos, entre otros factores usados en su elaboración.
+          p Debe cubrir los costes de la materia prima, insumos, la mano de obra, la tecnología, la maquinaria o equipos que emplea, el alquiler de local, mantenimiento de equipos, sueldos, entre otros factores usados en su elaboración.
         .col-12.col-lg-8.col-lg-8
           .bgr_5.p-4.p-xl-5
             p Vamos a conocer tres metodos principales para determinar los precios:
@@ -186,7 +186,7 @@
         .col-12.col-lg-5.align-items-center.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
           div
             p Codificar significa fijar un código a un producto; posibilita una buena organización de las existencias, lo cual influye de manera positiva en cada una de las ocupaciones que se desarrollan en la instalación. El proceso de codificación de mercancías se basa en detectar los productos de modo inequívoco con un código o símbolo. 
-            p.text-bold.mb-0 Este código se asocia a una etiqueta adherida al producto, que dejará entrar a él electrónicamente.
+            p.mb-0 Este código se asocia a una etiqueta adherida al producto, que dejará entrar a él electrónicamente.
         .col-12.col-md-8.col-lg-3.order-1.order-lg-2(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema2/t2-11.png', alt='Texto que describa la imagen')
@@ -195,7 +195,7 @@
           figure
             img(src='@/assets/curso/tema2/t2-12.svg', alt='Texto que describa la imagen')
         .col-12.col-lg-7(data-aos="fade-left")
-          p.text-bold Propiedades primordiales:
+          p Propiedades primordiales:
           ul.lista-ul--color
             li.d-flex
               i.fas.fa-paper-plane.colr_2
@@ -250,7 +250,7 @@
         .row.p-4  
           .col-12.col-lg-6
             h4 Es de manejo simple 
-            p Es un sistema estándar de codificación de bienes y servicios, elaborado para objetivos comerciales de compras y adquisiciones. Es flexible, versátil, de forma fácil adaptable a las necesidades locales y usado en catálogos electrónicos, motores de consulta en internet y sistemas de aplicación de adquisiciones. 
+            p Es un sistema estándar de codificación de bienes y servicios, elaborado para objetivos comerciales de compras y adquisiciones. Es flexible, versátil y fácilmente adaptable a las necesidades locales y usado en catálogos electrónicos, motores de consulta en internet y sistemas de aplicación de adquisiciones. 
           .col-12.col-lg-6
             figure
               img(src='@/assets/curso/tema2/t2-14.png', alt='Texto que describa la imagen')
@@ -286,11 +286,11 @@
           .col-12.col-lg-6
             figure
               img(src='@/assets/curso/tema2/t2-18.png', alt='Texto que describa la imagen')
-      .tarjeta.modif_12.p-4(titulo="Todos lo tienen la posibilidad de utilizar")
+      .tarjeta.modif_12.p-4(titulo="Todos tienen la posibilidad de utilizarlo")
         .row.p-4  
           .col-12.col-lg-6
-            h4 Todos lo tienen la posibilidad de utilizar 
-            p Es de independiente utilización para uso de consumidores y vendedores, quienes lo tienen la posibilidad de integrar en sus sistemas electrónicos de compras y suministros. La utilización del UNSPSC aumenta la eficiencia y la efectividad en el desempeño de los procesos contractuales y disminuye los precios de producir y conservar un sistema de codificación personal.  
+            h4 Todos tienen la posibilidad de utilizarlo 
+            p Es de independiente utilización para uso de consumidores y vendedores, quienes tienen la posibilidad de integrarlo en sus sistemas electrónicos de compras y suministros. La utilización del UNSPSC aumenta la eficiencia y la efectividad en el desempeño de los procesos contractuales y disminuye los precios de producir y conservar un sistema de codificación personal.  
           .col-12.col-lg-6
             figure
               img(src='@/assets/curso/tema2/t2-19.png', alt='Texto que describa la imagen')
@@ -305,7 +305,7 @@
 
     h3.mb-5 Ventajas de la codificación de productos
 
-    p.text-bold La codificación es de enorme utilidad en todos los eslabones de la cadena logística, desde el fabricante hasta el consumidor final. A los empresarios y fabricantes, les ayuda a estar al corriente del estado de sus existencias y a ubicar los artículos con velocidad.
+    p La codificación es de enorme utilidad en todos los eslabones de la cadena logística, desde el fabricante hasta el consumidor final. A los empresarios y fabricantes, les ayuda a estar al corriente del estado de sus existencias y a ubicar los artículos con velocidad.
     p.mb-5 Los clientes, por su lado, se benefician de las buenas prácticas logísticas que implementan las organizaciones y, por consiguiente, de que haya productos en <em>stock</em> una vez que van a mercar o de recibir rápido y sin errores sus demandas en línea. 
 
     p A continuación, se muestran las siguientes ventajas:
@@ -515,7 +515,7 @@
               tr
                 td.bgr_14.text-bold.modif_14 
                   p.mb-0.text-bold.text-center Carretillas.
-                td.bgr_15.text-bold Tipos: Carretilla retráctil, contrabalanceada de toma lateral (bi o trilateral).
+                td.bgr_15.text-bold Tipos: carretilla retráctil, contrabalanceada de toma lateral (bi o trilateral).
                 td.bgr_16.text-small.ps-4 - Movimientos vertical y horizontal.
                   br
                   |- Levanta cargas hasta 10m.
@@ -669,8 +669,8 @@
     .row.mb-5
       .col-12.col-lg-7.p-3.p-lg-5.bg_grad-05(data-aos="fade-right")
         div  
-          p La utilización de la tecnología y procesos de información en las empresas facilitan la gestión y control operativo de la mercancía y eficiencia en la prestación del servicio al cliente.
-          p.mb-0 Los sistemas de comunicación, programas específicos y elementos o dispositivos necesarios para la comunicación, actualización de la información y registros en las bases de datos, son  elementos necesarios en la preparación de pedidos, varía desde los más básicos como papel y lápiz, hasta más automatizados implementando tecnologías de radiofrecuencia; así mismo la necesidad de recursos humanos podría aumentar o disminuir y los desplazamientos de las mercancías podrían ser horizontal o vertical. 
+          p La utilización de la tecnología y procesos de información en las empresas facilita la gestión y control operativo de la mercancía y la eficiencia en la prestación del servicio al cliente.
+          p.mb-0 Los sistemas de comunicación, programas específicos y elementos o dispositivos necesarios para la comunicación, actualización de la información y registros en las bases de datos, son  elementos necesarios en la preparación de pedidos, varía desde los más básicos como papel y lápiz, hasta más automatizados implementando tecnologías de radiofrecuencia; así mismo la necesidad de recursos humanos podría aumentar o disminuir y los desplazamientos de las mercancías podrían ser horizontales o verticales. 
       .col-12.col-lg-5.align-items-center(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/t2-49.png', alt='Texto que describa la imagen')
@@ -762,7 +762,7 @@
                 img(src='@/assets/curso/tema2/t2-61.png', alt='Texto que describa la imagen')
             .col-12.col-lg-6.col-lg-6
               h4.mb-lg-4 Novedad respecto al destino
-              p Envío de mercancía para una ciudad diferente a la solicitada.  Con destino a un Apartado Aéreo.  Direcciones cruzadas o confusas. No se hacen entregas en cárceles o guarniciones militares.
+              p Envío de mercancía para una ciudad diferente a la solicitada.  Con destino a un apartado aéreo.  Direcciones cruzadas o confusas. No se hacen entregas en cárceles o guarniciones militares.
           .row
             .col-12.col-lg-6.col-lg-6.mb-3.mb-lg-0
               figure
@@ -790,7 +790,7 @@
                 img(src='@/assets/curso/tema2/t2-65.png', alt='Texto que describa la imagen')
             .col-12.col-lg-6.col-lg-6
               h4.mb-lg-4 Inconsistencia
-              p Aquellos defectos de la mercancía encontrados al momento de realizar la verificación, según la información registrada en los documentos que lo acompañan; como:  embalaje o entrega de la mercancía inadecuada según solicitud de pedido, cantidad o artículo erróneo, falta de algún artículo, error en los registros, ubicación incorrecta, etc.
+              p Aquellos defectos de la mercancía encontrados al momento de realizar la verificación, según la información registrada en los documentos que lo acompañan como:  embalaje o entrega de la mercancía inadecuada según solicitud de pedido, cantidad o artículo erróneo, falta de algún artículo, error en los registros, ubicación incorrecta, etc.
           .row
             .col-12.col-lg-6.col-lg-6.mb-3.mb-lg-0
               figure

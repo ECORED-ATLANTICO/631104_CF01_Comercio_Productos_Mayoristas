@@ -11,8 +11,8 @@
       .row.mb-5.justify-center
         .col-12.col-lg-6.col-lg-6.mb-3.mb-lg-0.mb-lg-0.align-items-center(data-aos="fade-right")
           div
-            p El producto o mercancía es el bien que una persona o empresa, puede vender o comprar a través de una transacción, también se define como cualquier elemento que sea posible intercambiarlo o comercializarlo en un mercado, toda mercancía tiene como característica satisfacer una necesidad del comprador o consumidor, con la venta de la mercancía se cubre una demanda específica. 
-            p.mb-0.text-bold Para el manejo de mercancías en el almacén, se debe aplicar la normativa vigente de seguridad, la cual es la siguiente:
+            p El producto o mercancía es el bien que una persona o empresa puede vender o comprar a través de una transacción, también se define como cualquier elemento que sea posible intercambiarlo o comercializarlo en un mercado, toda mercancía tiene como característica satisfacer una necesidad del comprador o consumidor, con la venta de la mercancía se cubre una demanda específica. 
+            p.mb-0 Para el manejo de mercancías en el almacén, se debe aplicar la normativa vigente de seguridad, la cual es la siguiente:
         .col-md-8.col-lg-4.col-lg-4(data-aos="fade-left")
           figure.mb-5
             img(src='@/assets/curso/tema1/t1-1.png', alt='Texto que describa la imagen')
@@ -21,7 +21,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/nyTqy5fuPJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Normativa vigente de seguridad para el manejo de mercancías en el almacén
-    p.text-bold A continuación se presenta la clasificación de mercancías según sus características y su naturaleza.
+    p A continuación se presenta la clasificación de mercancías según sus características y su naturaleza.
 
     .bgr
       .row.mb-5.justify-center

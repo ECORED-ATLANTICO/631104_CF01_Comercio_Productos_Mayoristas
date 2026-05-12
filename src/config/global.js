@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Gestión de inventarios',
     descripcionCurso:
-      'La gestión de inventarios ayuda a las empresas a identificar qué existencias hay, qué pedir y en qué momento hacer los pedidos. Realiza un seguimiento del inventario desde la compra, como el etiquetado, la codificación, la conservación, hasta la venta de la mercancía; la revisión de los inventarios garantiza que las empresas tengan suficientes existencias y avisar adecuadamente de una escasez.',
+      'La gestión de inventarios ayuda a las empresas a identificar qué existencias hay, qué pedir y en qué momento hacer los pedidos. Realiza un seguimiento del inventario desde la compra, como el etiquetado, la codificación, la conservación, hasta la venta de la mercancía; la revisión de los inventarios garantiza que las empresas tengan suficientes existencias y avisa adecuadamente de una escasez.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },

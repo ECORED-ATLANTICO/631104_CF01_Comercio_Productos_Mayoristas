@@ -8,14 +8,14 @@
       h1 Administración y control de inventarios
 
     .row.mb-5.justify-center
-      .col-12.col-lg-5.col-lg-5.align-items-center.bg_grad-07.mb-3.mb-lg-0.order-2.orde-lg-1
-        p.mb-0 El <b>control de inventario</b> es el proceso por el cual una empresa administra las mercancías que mantiene en almacén. Esto, con el objetivo de recopilar información de la entrada y salida de los productos, buscando además el ahorro de costes.
-      .col-12.col-lg-5.col-lg-5.order-1.orde-lg-2.mb-3.mb-lg-0
+      .col-12.col-lg-5.align-content-center.bg_grad-07.mb-3.mb-lg-0.order-2.orde-lg-1
+        p El <b>control de inventario</b> es el proceso por el cual una empresa administra las mercancías que mantiene en almacén. Esto con el objetivo de recopilar información de la entrada y salida de los productos, buscando además el ahorro de costes.
+        p.mb-0 La administración de inventarios es la contabilidad de los artículos, componentes y materias primas que una empresa utiliza en la producción o venta. Un líder empresarial, debe llevar a la práctica la gestión de inventarios para asegurarse de que tiene suficientes existencias a mano y para identificar cuándo hay una escasez.
+      .col-12.col-lg-5.order-1.orde-lg-2.mb-3.mb-lg-0
         figure
           img(src='@/assets/curso/tema4/t4-1.png', alt='Texto que describa la imagen')
-    .row.justify-center.mb-5
+    .row.justify-center.align-items-center.mb-5
       .col-12.col-lg-7
-        h5.mb-5 Administración y control de inventarios
         p El verbo "inventario" se refiere al acto de contar o enumerar artículos. Como término contable, el inventario es un activo corriente y se refiere a todas las existencias en las distintas fases de producción.
         p El inventario es un activo importante en el balance de la mayoría de las empresas; un exceso de inventario puede convertirse en un pasivo práctico.
         p Al mantener las existencias, tanto los minoristas como los fabricantes pueden seguir vendiendo y fabricando artículos; tener presente que el exceso de inventarios puede traer problemas financieros, el mismo forma parte de los activos.
@@ -143,7 +143,7 @@
       .col-12.col-lg-8.mb-3.mb-lg-0.align-items-center
         div
           p La preparación de pedidos para última milla se denomina <em>picking</em>, esta etapa en el proceso logística es de mucha importancia para todos los centros de distribución, en este proceso se pueden generar reproceso si no se  hace la preparación de los pedidos de forma ordenada y atenta, es la garantía de que la mercancía embalada sea la apropiada para continuar en el recorrido al destino final, es por ello que la etapa de organización y preparación de las mercancías demanda eficiencia para no ver afectada la operación y por consiguiente dar cumplimiento con las promesas de valor a los clientes y no menoscabar la productividad de la empresa. 
-          p.mb-0 <b>El <em>picking</em> es la actividad que realiza un equipo de operarios al momento de preparar los pedidos, consiste en la recogida y consolidación de cargas no unitarias que componen el pedido de un cliente.</b> El <em>picking</em> es una de las actividades más costosas en el almacenamiento, puesto que implica desplazamientos y recorridos del personal; representa entre el 45 % y 75 % del costo total de la operación. Por otro lado, la consolidación de mercancía es la combinación de un conjunto de envíos individuales e independientes en un mismo cargamento, para reducir costos generales de transporte. El <em>picking</em>  involucra cuatro (4) etapas; estas son:
+          p.mb-0 El <em>picking</em> es la actividad que realiza un equipo de operarios al momento de preparar los pedidos, consiste en la recogida y consolidación de cargas no unitarias que componen el pedido de un cliente. El <em>picking</em> es una de las actividades más costosas en el almacenamiento, puesto que implica desplazamientos y recorridos del personal; representa entre el 45 % y 75 % del costo total de la operación. Por otro lado, la consolidación de mercancía es la combinación de un conjunto de envíos individuales e independientes en un mismo cargamento, para reducir costos generales de transporte. El <em>picking</em>  involucra cuatro (4) etapas; estas son:
       .col-12.col-md-8.col-lg-4
         figure
           img(src='@/assets/curso/tema4/t4-12.svg', alt='Texto que describa la imagen')
@@ -252,7 +252,7 @@
         figure
           img(src='@/assets/curso/tema4/t4-18.png', alt='Texto que describa la imagen')
     
-    p.mb-5 El desarrollo de las inspecciones debe realizarse por fases, teniendo en cuenta sus características propias; así:
+    p.mb-5 El desarrollo de las inspecciones debe realizarse por fases, teniendo en cuenta sus características propias así:
 
     TabsA.color-acento-botones.modif_22.mb-5(data-aos="zoom-in-down")
       .tarjeta.modif_23.p-4(titulo="Fase 1")

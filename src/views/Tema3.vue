@@ -15,7 +15,7 @@
         .col-12.col-lg-6.col-xl-5.align-items-center
           div
             p El inventario es la metodología aplicada para realizar el recuento exacto de los productos existentes en el almacén, por medio del cual se verifica la cantidad y valor de la mercancía.  
-            p.mb-0.text-bold Según normativa se debe realizar la actualización mínima una vez al año y aplicar alguna de las metodologías:
+            p.mb-0 Según normativa se debe realizar la actualización mínima una vez al año y aplicar alguna de las metodologías:
 
      
     .row.mb-3.justify-center(data-aos="zoom-out-up")
@@ -36,13 +36,13 @@
                   p.mb-0.text-bold Gestión de las existencias.
                 td.ps-3.ps-md-4.bgr_16
                   p <b>LIFO</b> <em>(Last In First Out)</em>: último que entra es el primero que sale.  Habitualmente para productos que no tienen caducidad.
-                  p <b>FIFO</b> <em>(First In First Out)</em>: primero que entra es el primero que sale. La mercancía con mayor  es la que primero debe salir.
+                  p <b>FIFO</b> <em>(First In First Out)</em>: primero que entra es el primero que sale. La mercancía con mayor antigüedad es la que primero debe salir.
                   p <b>FEFO</b> <em>(Firs expires first out)</em>: el primero que caduca es el primero que sale. La mercancía se ubica de acuerdo a la fecha de vencimiento, para que salga primero.
               tr
                 td.bgr_15.text-bold 
-                  p.mb-0.text-bold Metodologías de conteode la mercancía.
+                  p.mb-0.text-bold Metodologías de conteo de la mercancía.
                 td.ps-3.ps-md-4.bgr_16 
-                  p <b>Periódico</b>: el contero se realiza al final del periodo.
+                  p <b>Periódico</b>: el conteo se realiza al final del periodo.
                   p <b>Permanente</b>: se realiza continuamente la verificación de las existencias. El inventario permanece actualizado.
                   p <b>Físico</b>: verificación ocular  de las existencias registradas.  Importante realizar en periodos de baja actividad, para no interferir con el proceso.
               tr
