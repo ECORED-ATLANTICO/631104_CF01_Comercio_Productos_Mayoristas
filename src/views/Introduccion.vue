@@ -18,6 +18,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/AsAR-sTfx8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Gestión de inventarios - introducción
 
+
 </template>
 
 <script>
