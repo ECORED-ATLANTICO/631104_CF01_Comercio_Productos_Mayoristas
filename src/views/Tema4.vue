@@ -104,7 +104,7 @@
             p los bienes de mantenimiento, reparación y operaciones (MRO) son inventarios - a menudo en forma de suministros - que apoyan la fabricación de un producto o el mantenimiento de una empresa.
             h4 Materiales de empaque y embalaje:
             p Hay tres tipos de materiales de embalaje. El embalaje primario protege el producto y lo hace utilizable. El embalaje secundario es el embalaje del producto terminado y puede incluir etiquetas o información de SKU. El embalaje terciario es el embalaje a granel para el transporte.
-            h4 <em>Stock</em> de seguridad y stock de anticipación:
+            h4 <em>Stock</em> de seguridad y <em>stock</em> de anticipación:
             p.mb-0 El <em>stock</em> de seguridad es el inventario extra que una empresa compra y almacena para cubrir eventos inesperados. El <em>stock</em> de seguridad tiene costes de transporte, pero contribuye a la satisfacción del cliente. Del mismo modo, las existencias de anticipación comprenden las materias primas o los artículos acabados que una empresa adquiere en función de las tendencias de las ventas y la producción. Si el precio de una materia prima está subiendo o se acerca la época de mayores ventas, una empresa puede comprar existencias de seguridad.
           div
             h4 Inventario de desacoplamiento:
@@ -384,7 +384,10 @@
               p.text-bold Inventario físico
               p.mb-0 Es realizado en el almacén para determinar las existencias físicas de las mercancías por medio de inspección ocular e ir anotando las unidades, lotes y/o referencias.
     
-    .row.justify-center
+   
+    p.mb-3.text-center Se recomienda consultar el siguiente recurso audiovisual, disponible en el siguiente enlace:
+    
+    .row.justify-content-center.align-items-center
       .col-12.col-md-10.col-lg-4
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=iM7gUJ75_8w" target="_blank")
           .anexo__icono

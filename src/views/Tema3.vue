@@ -37,7 +37,7 @@
                 td.ps-3.ps-md-4.bgr_16
                   p <b>LIFO</b> <em>(Last In First Out)</em>: último que entra es el primero que sale.  Habitualmente para productos que no tienen caducidad.
                   p <b>FIFO</b> <em>(First In First Out)</em>: primero que entra es el primero que sale. La mercancía con mayor antigüedad es la que primero debe salir.
-                  p <b>FEFO</b> <em>(Firs expires first out)</em>: el primero que caduca es el primero que sale. La mercancía se ubica de acuerdo a la fecha de vencimiento, para que salga primero.
+                  p <b>FEFO</b> <em>(First expires first out)</em>: el primero que caduca es el primero que sale. La mercancía se ubica de acuerdo a la fecha de vencimiento, para que salga primero.
               tr
                 td.bgr_15.text-bold 
                   p.mb-0.text-bold Metodologías de conteo de la mercancía.

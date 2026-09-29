@@ -38,7 +38,7 @@
           p Debe cubrir los costes de la materia prima, insumos, la mano de obra, la tecnología, la maquinaria o equipos que emplea, el alquiler de local, mantenimiento de equipos, sueldos, entre otros factores usados en su elaboración.
         .col-12.col-lg-8.col-lg-8
           .bgr_5.p-4.p-xl-5
-            p Vamos a conocer tres metodos principales para determinar los precios:
+            p Vamos a conocer tres métodos principales para determinar los precios:
             .row.justify-center
               .col-lg-4.mb-3.mb-lg-0
                 .bgr_23.p-3.p-xl-4.h-100
@@ -408,7 +408,7 @@
                   br
                   |- Transporte a granel.
                   br
-                  |- Adecuada para trayecto largos, con curvas y diferentes niveles.
+                  |- Adecuada para trayectos largos, con curvas y diferentes niveles.
                 td
                   img.img180(src='@/assets/curso/tema2/t2-30.png' alt='AvatarTop') 
               tr
@@ -455,7 +455,7 @@
                 td.bgr_15.text-bold Equipo que se desplaza por pasillos estrechos a velocidad alta.
                 td.bgr_16.text-small.ps-4 - Diseñados especialmente para almacenes automatizados.
                   br
-                  |- Operan con dos moviemintos: longitudinal sobre raíl y otro vertical para extraer o colocar <em>pallets</em>.
+                  |- Operan con dos movimientos: longitudinal sobre raíl y otro vertical para extraer o colocar <em>pallets</em>.
                   br
                   |- Desarrollan tareas de <em>picking</em> a gran altura.
                 td 

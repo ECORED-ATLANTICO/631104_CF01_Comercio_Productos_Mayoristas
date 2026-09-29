@@ -177,12 +177,12 @@ export default {
         'Vehículos y equipos capaces de transportar artículos, bultos, paletas y cajas dentro del almacén; son necesarios para trasladar cargas y que el operario no realice sobreesfuerzo físico.',
     },
     {
-      termino: '<em>Packing</em>',
+      termino: '<em>Picking</em>',
       significado:
         'La actividad que realiza un equipo de operarios al momento de preparar los pedidos, consiste en la recogida y consolidación de cargas no unitarias que componen el pedido de un cliente.',
     },
     {
-      termino: '<em>Picking</em>',
+      termino: '<em>Packing</em>',
       significado: 'Acondicionamiento y empaque de pedidos.',
     },
   ],
@@ -195,7 +195,7 @@ export default {
     },
     {
       referencia:
-        'Flamarique, S. (2017). <em>Gestion de operaciones de almacenaje</em>. Barcelonaón de operaciones de almacenaje. Barcelona: Marge Books. Disponible en:',
+        'Flamarique, S. (2017). <em>Gestión de operaciones de almacenaje</em>. Barcelona: Marge Books. Disponible en:',
       link:
         'https://www.marcialpons.es/libros/gestion-de-operaciones-de-almacenaje/9788416171873/',
     },
@@ -207,7 +207,7 @@ export default {
     },
     {
       referencia:
-        'Gómez Aparicio,  J. M.(2013). <em>Gestión logística y comercial</em>. Aravaca, Madrid: McGraw-Hill España.',
+        'Gómez Aparicio,  J. M. (2013). <em>Gestión logística y comercial</em>. Aravaca, Madrid: McGraw-Hill España.',
       link: '',
     },
   ],
@@ -219,7 +219,7 @@ export default {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
             'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
-          centro: 'Centro Agroturistico - Regional Santander',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Miguel de Jesús Paredes Maestre',
@@ -345,7 +345,7 @@ export default {
   ],
   creditosAdicionales: {
     imagenes:
-      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+      'Fotografías y vectores tomados de <a href="https://www.magnific.com/es" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
