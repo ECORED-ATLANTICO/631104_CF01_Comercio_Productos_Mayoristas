@@ -111,7 +111,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/631104_CF01_DU.pdf',
+        download: 'downloads/631104_CF01_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -189,25 +189,25 @@ export default {
   referencias: [
     {
       referencia:
-        'Campo Varela, A. (2013). <em>Operaciones de almacenaje</em>. España: McGraw-Hill',
+        'Campo Varela, A. (2013). Operaciones de almacenaje. España: McGraw-Hill',
       link:
         'https://kupdf.net/download/operaciones-de-almacenaje_5c96f9e6e2b6f55d2e9fe98a_pdf',
     },
     {
       referencia:
-        'Flamarique, S. (2017). <em>Gestión de operaciones de almacenaje</em>. Barcelona: Marge Books. Disponible en:',
+        'Flamarique, S. (2017). Gestión de operaciones de almacenaje. Barcelona: Marge Books. Disponible en:',
       link:
         'https://www.marcialpons.es/libros/gestion-de-operaciones-de-almacenaje/9788416171873/',
     },
     {
       referencia:
-        'Fernández Valero,  G. (2016)  <em>Manual de operaciones auxiliares de almacenaje</em>. Madrid: operaciones auxiliares de almacenaje. Madrid: Editorial CEP, S.L. ',
+        'Fernández Valero,  G. (2016)  Manual de operaciones auxiliares de almacenaje. Madrid: operaciones auxiliares de almacenaje. Madrid: Editorial CEP, S.L. ',
       link:
         'https://www.buscalibre.com.co/libro-manual-operaciones-auxiliares-de-almacenaje-mf1325-1-certificados-gonzalo-fernandez-valero-cep/9788468151939/p/46445151',
     },
     {
       referencia:
-        'Gómez Aparicio,  J. M. (2013). <em>Gestión logística y comercial</em>. Aravaca, Madrid: McGraw-Hill España.',
+        'Gómez Aparicio,  J. M. (2013). Gestión logística y comercial. Aravaca, Madrid: McGraw-Hill España.',
       link: '',
     },
   ],
@@ -218,7 +218,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -322,12 +322,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -337,7 +337,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos digitales',
+          cargo: 'Validadora y vinculadora de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -345,7 +345,7 @@ export default {
   ],
   creditosAdicionales: {
     imagenes:
-      'Fotografías y vectores tomados de <a href="https://www.magnific.com/es" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+      'Fotografías y vectores tomados de <a href="https://www.magnific.com/es" target="_blank">www.magnific.com</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
