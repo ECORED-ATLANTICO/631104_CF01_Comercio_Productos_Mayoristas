@@ -326,17 +326,12 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Jonathan Adié Villafañe',
+          nombre: 'Luis Gabriel Urueta Álvarez',
           cargo: 'Validador y vinculador de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Karine Isabel Ospino Fritz',
+          nombre: 'Laura Daniela Burgos Rueda',
           cargo: 'Validadora y vinculadora de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
